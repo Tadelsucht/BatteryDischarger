@@ -1,5 +1,7 @@
-# BatteryDischarger - Discharge devices in a controlled manner.
-BatteryDischarger offers a simple way to discharge the battery of a device (Windows, Linux or macOS) to a predefined battery level (in percent) in a controlled manner and then shut down, for example.
+# Discharge devices in a controlled manner.
+BatteryDischarger offers a simple way to discharge the battery of a device (Windows, Linux or macOS) to a predefined battery level (in percent) in a controlled manner and then shut down, for example. ( https://batterydischarger.de/ )
+
+![Screenshot](https://batterydischarger.de/wp-content/uploads/2022/06/screenshot-en-1.png)
 
 ## Download
 https://github.com/Tadelsucht/BatteryDischarger/releases
@@ -23,3 +25,6 @@ battery discharge
 
 ## Documentation
 https://batterydischarger.de/support/#googtrans(de%7Cen)
+
+## License key for old versions:
+**23606420**
