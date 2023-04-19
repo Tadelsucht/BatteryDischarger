@@ -23,3 +23,6 @@ battery discharge
 
 ## Documentation
 https://batterydischarger.de/support/#googtrans(de%7Cen)
+
+## License key for old versions:
+**23606420**
