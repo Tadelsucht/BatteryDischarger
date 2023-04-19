@@ -1,0 +1,16 @@
+<Window
+    x:Class="BatteryDischarger.LegalNoticeWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:p="clr-namespace:BatteryDischarger.Properties"
+    Title="BatteryDischarger - Copyright © 2022 Tadelsucht UG (haftungsbeschränkt)"
+    Width="400"
+    Height="200"
+    mc:Ignorable="d">
+    <TextBox
+        Name="tbLegalText"
+        Margin="10"
+        TextWrapping="Wrap" />
+</Window>

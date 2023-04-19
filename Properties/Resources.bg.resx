@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
+    <value>Открита е повече от една батерия, което не се поддържа от програмата.</value>
+  </data>
+  <data name="NoBatteryWasDetected" xml:space="preserve">
+    <value>Не е открита батерия.</value>
+  </data>
+  <data name="StartControlledDischarge" xml:space="preserve">
+    <value>Стартиране на контролирано разтоварване</value>
+  </data>
+  <data name="TargetBatteryChargeInPercent" xml:space="preserve">
+    <value>Целеви заряд на батерията (в проценти):</value>
+  </data>
+  <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
+    <value>Състоянието на батерията не може да бъде определено.</value>
+  </data>
+  <data name="StopControlledDischarge" xml:space="preserve">
+    <value>Спиране на контролираното изхвърляне</value>
+  </data>
+  <data name="AccelerateBatteryDischarge" xml:space="preserve">
+    <value>Ускоряване на разреждането на батерията:</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
+    <value>Не е намерен използваем WorkingDirectoryPath.</value>
+  </data>
+  <data name="LanguageColon" xml:space="preserve">
+    <value>Език:</value>
+  </data>
+  <data name="LegalNotice" xml:space="preserve">
+    <value>Правно уведомление</value>
+  </data>
+  <data name="TheOperatingSystemIsNotSupported" xml:space="preserve">
+    <value>Операционната система не се поддържа.</value>
+  </data>
+  <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve">
+    <value>Структурата на посочения лицензен код не е правилна.</value>
+  </data>
+  <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
+    <value>Лицензионният код не е валиден.</value>
+  </data>
+  <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve">
+    <value>Програмата може да се използва само след въвеждане на валиден лицензен код.</value>
+  </data>
+  <data name="CheckCorrect" xml:space="preserve">
+    <value>✔</value>
+  </data>
+  <data name="CheckIncorrect" xml:space="preserve">
+    <value>❌</value>
+  </data>
+  <data name="LicenseCodeColon" xml:space="preserve">
+    <value>Код на лиценза:</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Проверка на</value>
+  </data>
+  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
+    <value>Брой минути до достигане на избраното ниво на батерията:</value>
+  </data>
+  <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
+    <value>Действие при достигане на избраното ниво на батерията:</value>
+  </data>
+  <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
+    <value>Текущ заряд на батерията в проценти:</value>
+  </data>
+  <data name="ShutDownDevice" xml:space="preserve">
+    <value>Изключване на машината</value>
+  </data>
+  <data name="HibernateDevice" xml:space="preserve">
+    <value>Устройство за хибернация</value>
+  </data>
+  <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
+    <value>Настройка на устройството в режим на пестене на енергия</value>
+  </data>
+  <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
+    <value>Възможно е устройството все още да се зарежда или състоянието на батерията да не може да бъде определено.
+Въпреки това контролираният процес на разреждане на батерията се извършва нормално.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
+    <value>Предотвратяване на нежелана хибернация на системата:</value>
+  </data>
+</root>

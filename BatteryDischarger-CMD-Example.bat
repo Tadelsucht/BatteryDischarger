@@ -1,0 +1,2 @@
+BatteryDischarger.exe Autostart Language de AccelerateBatteryDischarge True PreventUnwantedSystemSleepMode False TargetBatteryChargeInPercent 30
+pause
