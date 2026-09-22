@@ -182,4 +182,7 @@ Proces kontrolowanego rozładowania akumulatora przebiega jednak normalnie.</val
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Zapobieganie niepożądanej hibernacji systemu:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Nic nie rób</value>
+  </data>
 </root>

@@ -202,4 +202,7 @@
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Предотвращение нежелательного перехода системы в спящий режим:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Ничего не делать</value>
+  </data>
 </root>

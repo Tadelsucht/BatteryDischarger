@@ -182,4 +182,7 @@ Il processo di scarica controllata della batteria si svolge comunque normalmente
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Prevenire l'ibernazione indesiderata del sistema:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Non fare nulla</value>
+  </data>
 </root>

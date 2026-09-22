@@ -8,6 +8,7 @@ namespace BatteryDischarger
     {
         public enum Languages
         {
+            ar,
             bg,
             cs,
             da,
@@ -18,11 +19,15 @@ namespace BatteryDischarger
             et,
             fi,
             fr,
+            he,
             hu,
+            id,
             it,
             ja,
+            ko,
             lt,
             lv,
+            nb,
             nl,
             pl,
             pt,
@@ -31,6 +36,9 @@ namespace BatteryDischarger
             sk,
             sl,
             sv,
+            tr,
+            uk,
+            vi,
             zh
         }
 

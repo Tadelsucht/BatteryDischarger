@@ -5,6 +5,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Diagnostics.CodeAnalysis;
 
 namespace BatteryDischarger
 {
@@ -21,6 +22,7 @@ namespace BatteryDischarger
         // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
         // yet and stuff might break.
         [STAThread]
+        [ExcludeFromCodeCoverage]
         public static void Main(string[] args)
         {
             // Set working directory for lib loading

@@ -182,4 +182,7 @@ Den kontrollerede batteriudladningsproces udføres dog normalt.</value>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Forebyg uønsket dvale af systemet:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Gør ingenting</value>
+  </data>
 </root>

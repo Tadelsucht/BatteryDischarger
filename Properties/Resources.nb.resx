@@ -202,4 +202,7 @@ Den kontrollerte batteriladingsprosessen utføres likevel som normalt.</value>
   <data name="Verify" xml:space="preserve">
     <value>Sjekk</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Ikke gjør noe</value>
+  </data>
 </root>

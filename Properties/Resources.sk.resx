@@ -182,4 +182,7 @@ Riadený proces vybíjania batérie však prebieha normálne.</value>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Zabránenie nežiaducej hibernácii systému:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Nerobiť nič</value>
+  </data>
 </root>

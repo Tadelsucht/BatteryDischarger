@@ -182,4 +182,7 @@ Kontrollitud aku tühjendusprotsess toimub siiski normaalselt.</value>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Vältida süsteemi soovimatut talveolekut:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Ära tee midagi</value>
+  </data>
 </root>

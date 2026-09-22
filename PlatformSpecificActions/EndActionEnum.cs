@@ -4,6 +4,7 @@
     {
         Shutdown,
         Sleep,
-        Hibernate
+        Hibernate,
+        DoNothing
     }
 }

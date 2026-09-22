@@ -182,4 +182,7 @@ Nadzorovano praznjenje baterije kljub temu poteka normalno.</value>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Preprečevanje neželene hibernacije sistema:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Ne naredi nič</value>
+  </data>
 </root>

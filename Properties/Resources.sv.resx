@@ -182,4 +182,7 @@ Den kontrollerade urladdningen av batteriet sker dock normalt.</value>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Förhindra oönskad dvala i systemet:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Gör ingenting</value>
+  </data>
 </root>

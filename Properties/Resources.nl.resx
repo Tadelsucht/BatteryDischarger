@@ -182,4 +182,7 @@ Het gecontroleerde ontladingsproces van de batterij wordt niettemin normaal uitg
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Voorkom ongewenste winterslaap van het systeem:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Niets doen</value>
+  </data>
 </root>

@@ -182,4 +182,7 @@ Procesul de descărcare controlată a bateriei se desfășoară totuși în mod 
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Împiedicați hibernarea nedorită a sistemului:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Nu face nimic</value>
+  </data>
 </root>

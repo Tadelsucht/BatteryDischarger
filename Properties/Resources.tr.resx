@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AccelerateBatteryDischarge" xml:space="preserve"><value>Pil boşalmasını hızlandır:</value></data>
+  <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve"><value>Seçilen pil şarj seviyesine ulaşıldığında yapılacak işlem:</value></data>
+  <data name="CheckCorrect" xml:space="preserve"><value>✔</value></data>
+  <data name="CheckIncorrect" xml:space="preserve"><value>❌</value></data>
+  <data name="CurrentBatteryChargeInPercent" xml:space="preserve"><value>Mevcut pil şarjı yüzde olarak:</value></data>
+  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve"><value>Kullanılabilir bir WorkingDirectoryPath bulunamadı.</value></data>
+  <data name="DoNothing" xml:space="preserve"><value>Hiçbir şey yapma</value></data>
+  <data name="Error" xml:space="preserve"><value>Hata</value></data>
+  <data name="HibernateDevice" xml:space="preserve"><value>Cihazı hazırda beklet</value></data>
+  <data name="Information" xml:space="preserve"><value>Bilgi</value></data>
+  <data name="LanguageColon" xml:space="preserve"><value>Dil:</value></data>
+  <data name="LegalNotice" xml:space="preserve"><value>Yasal bildirim</value></data>
+  <data name="LicenseCodeColon" xml:space="preserve"><value>Lisans kodu:</value></data>
+  <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve"><value>Program tarafından desteklenmeyen birden fazla pil algılandı.</value></data>
+  <data name="NoBatteryWasDetected" xml:space="preserve"><value>Hiçbir pil algılanamadı.</value></data>
+  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve"><value>Seçilen pil seviyesine ulaşılmasına kalan dakika sayısı:</value></data>
+  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve"><value>İstenmeyen sistem uyku modunu engelle:</value></data>
+  <data name="SetDeviceToPowerSavingMode" xml:space="preserve"><value>Cihazı güç tasarrufu moduna geçir</value></data>
+  <data name="ShutDownDevice" xml:space="preserve"><value>Cihazı kapat</value></data>
+  <data name="StartControlledDischarge" xml:space="preserve"><value>Kontrollü boşaltmayı başlat</value></data>
+  <data name="StopControlledDischarge" xml:space="preserve"><value>Kontrollü boşaltmayı durdur</value></data>
+  <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve"><value>Belirtilen lisans kodunun yapısı doğru değil.</value></data>
+  <data name="TargetBatteryChargeInPercent" xml:space="preserve"><value>Hedef pil şarjı (yüzde olarak):</value></data>
+  <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve"><value>Pil durumu belirlenemedi.</value></data>
+  <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve"><value>Cihaz hâlâ şarj oluyor olabilir veya pil durumu belirlenememiş olabilir.
+Kontrollü pil boşaltma işlemi yine de normal şekilde yürütülür.</value></data>
+  <data name="TheLicenseCodeIsNotValid" xml:space="preserve"><value>Lisans kodu geçerli değil.</value></data>
+  <data name="TheOperatingSystemIsNotSupported" xml:space="preserve"><value>İşletim sistemi desteklenmiyor.</value></data>
+  <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve"><value>Program yalnızca geçerli bir lisans kodu girildikten sonra kullanılabilir.</value></data>
+  <data name="Verify" xml:space="preserve"><value>Doğrula</value></data>
+</root>

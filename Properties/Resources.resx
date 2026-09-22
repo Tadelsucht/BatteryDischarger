@@ -135,6 +135,9 @@
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
     <value>Did not found a useable WorkingDirectoryPath.</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Do nothing</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
@@ -187,7 +190,7 @@
     <value>The battery status could not be determined.</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>The device may still be charging or the battery status could not be determined. 
+    <value>The device may still be charging or the battery status could not be determined.
 The controlled battery discharge process is nevertheless carried out normally.</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">

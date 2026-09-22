@@ -182,4 +182,7 @@ Kontrolētais akumulatora izlādes process tomēr tiek veikts normāli.</value>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Novērst nevēlamu sistēmas hibernēšanu:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Nedarīt neko</value>
+  </data>
 </root>

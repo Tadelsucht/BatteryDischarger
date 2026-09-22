@@ -182,4 +182,7 @@
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Αποτροπή ανεπιθύμητης αδρανοποίησης του συστήματος:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Να μην γίνει τίποτα</value>
+  </data>
 </root>

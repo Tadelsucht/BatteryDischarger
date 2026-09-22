@@ -22,6 +22,9 @@ namespace BatteryDischarger.DataSource
                 case EndActionEnum.Hibernate:
                     return BatteryDischarger.Properties.Resources.HibernateDevice + " (Hibernate)";
 
+                case EndActionEnum.DoNothing:
+                    return BatteryDischarger.Properties.Resources.DoNothing;
+
                 default:
                     return GetDefaultName();
             }

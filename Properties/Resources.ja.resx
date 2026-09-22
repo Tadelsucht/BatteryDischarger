@@ -182,4 +182,7 @@
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>システムの不要なハイバネーションの防止:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>何もしない</value>
+  </data>
 </root>

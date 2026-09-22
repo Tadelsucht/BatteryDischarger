@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AccelerateBatteryDischarge" xml:space="preserve"><value>Percepat pengosongan baterai:</value></data>
+  <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve"><value>Tindakan saat tingkat daya baterai yang dipilih tercapai:</value></data>
+  <data name="CheckCorrect" xml:space="preserve"><value>✔</value></data>
+  <data name="CheckIncorrect" xml:space="preserve"><value>❌</value></data>
+  <data name="CurrentBatteryChargeInPercent" xml:space="preserve"><value>Pengisian baterai saat ini dalam persen:</value></data>
+  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve"><value>WorkingDirectoryPath yang dapat digunakan tidak ditemukan.</value></data>
+  <data name="DoNothing" xml:space="preserve"><value>Jangan lakukan apa pun</value></data>
+  <data name="Error" xml:space="preserve"><value>Kesalahan</value></data>
+  <data name="HibernateDevice" xml:space="preserve"><value>Hibernasikan perangkat</value></data>
+  <data name="Information" xml:space="preserve"><value>Informasi</value></data>
+  <data name="LanguageColon" xml:space="preserve"><value>Bahasa:</value></data>
+  <data name="LegalNotice" xml:space="preserve"><value>Pemberitahuan hukum</value></data>
+  <data name="LicenseCodeColon" xml:space="preserve"><value>Kode lisensi:</value></data>
+  <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve"><value>Lebih dari satu baterai terdeteksi, yang tidak didukung oleh program.</value></data>
+  <data name="NoBatteryWasDetected" xml:space="preserve"><value>Tidak ada baterai yang terdeteksi.</value></data>
+  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve"><value>Jumlah menit hingga tingkat baterai yang dipilih tercapai:</value></data>
+  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve"><value>Cegah mode tidur sistem yang tidak diinginkan:</value></data>
+  <data name="SetDeviceToPowerSavingMode" xml:space="preserve"><value>Atur perangkat ke mode hemat daya</value></data>
+  <data name="ShutDownDevice" xml:space="preserve"><value>Matikan perangkat</value></data>
+  <data name="StartControlledDischarge" xml:space="preserve"><value>Mulai pengosongan terkontrol</value></data>
+  <data name="StopControlledDischarge" xml:space="preserve"><value>Hentikan pengosongan terkontrol</value></data>
+  <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve"><value>Struktur kode lisensi yang ditentukan tidak benar.</value></data>
+  <data name="TargetBatteryChargeInPercent" xml:space="preserve"><value>Target daya baterai (dalam persen):</value></data>
+  <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve"><value>Status baterai tidak dapat ditentukan.</value></data>
+  <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve"><value>Perangkat mungkin masih mengisi daya atau status baterai tidak dapat ditentukan.
+Proses pengosongan baterai terkontrol tetap dijalankan secara normal.</value></data>
+  <data name="TheLicenseCodeIsNotValid" xml:space="preserve"><value>Kode lisensi tidak valid.</value></data>
+  <data name="TheOperatingSystemIsNotSupported" xml:space="preserve"><value>Sistem operasi tidak didukung.</value></data>
+  <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve"><value>Program hanya dapat digunakan setelah kode lisensi yang valid dimasukkan.</value></data>
+  <data name="Verify" xml:space="preserve"><value>Verifikasi</value></data>
+</root>

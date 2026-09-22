@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AccelerateBatteryDischarge" xml:space="preserve"><value>تسريع تفريغ البطارية:</value></data>
+  <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve"><value>الإجراء عند الوصول إلى مستوى شحن البطارية المحدد:</value></data>
+  <data name="CheckCorrect" xml:space="preserve"><value>✔</value></data>
+  <data name="CheckIncorrect" xml:space="preserve"><value>❌</value></data>
+  <data name="CurrentBatteryChargeInPercent" xml:space="preserve"><value>مستوى شحن البطارية الحالي بالنسبة المئوية:</value></data>
+  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve"><value>تعذر العثور على مسار WorkingDirectoryPath صالح.</value></data>
+  <data name="DoNothing" xml:space="preserve"><value>لا تفعل شيئًا</value></data>
+  <data name="Error" xml:space="preserve"><value>خطأ</value></data>
+  <data name="HibernateDevice" xml:space="preserve"><value>إدخال الجهاز في وضع الإسبات</value></data>
+  <data name="Information" xml:space="preserve"><value>معلومات</value></data>
+  <data name="LanguageColon" xml:space="preserve"><value>اللغة:</value></data>
+  <data name="LegalNotice" xml:space="preserve"><value>الإشعار القانوني</value></data>
+  <data name="LicenseCodeColon" xml:space="preserve"><value>رمز الترخيص:</value></data>
+  <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve"><value>تم اكتشاف أكثر من بطارية واحدة، وهذا غير مدعوم من البرنامج.</value></data>
+  <data name="NoBatteryWasDetected" xml:space="preserve"><value>لم يتم اكتشاف أي بطارية.</value></data>
+  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve"><value>عدد الدقائق حتى الوصول إلى مستوى البطارية المحدد:</value></data>
+  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve"><value>منع وضع السكون غير المرغوب فيه للنظام:</value></data>
+  <data name="SetDeviceToPowerSavingMode" xml:space="preserve"><value>وضع الجهاز في وضع توفير الطاقة</value></data>
+  <data name="ShutDownDevice" xml:space="preserve"><value>إيقاف تشغيل الجهاز</value></data>
+  <data name="StartControlledDischarge" xml:space="preserve"><value>بدء التفريغ المتحكم به</value></data>
+  <data name="StopControlledDischarge" xml:space="preserve"><value>إيقاف التفريغ المتحكم به</value></data>
+  <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve"><value>بنية رمز الترخيص المحدد غير صحيحة.</value></data>
+  <data name="TargetBatteryChargeInPercent" xml:space="preserve"><value>شحن البطارية المستهدف (بالنسبة المئوية):</value></data>
+  <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve"><value>تعذر تحديد حالة البطارية.</value></data>
+  <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve"><value>قد يكون الجهاز لا يزال قيد الشحن أو تعذر تحديد حالة البطارية.
+ومع ذلك، تستمر عملية تفريغ البطارية المتحكم بها بشكل طبيعي.</value></data>
+  <data name="TheLicenseCodeIsNotValid" xml:space="preserve"><value>رمز الترخيص غير صالح.</value></data>
+  <data name="TheOperatingSystemIsNotSupported" xml:space="preserve"><value>نظام التشغيل غير مدعوم.</value></data>
+  <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve"><value>لا يمكن استخدام البرنامج إلا بعد إدخال رمز ترخيص صالح.</value></data>
+  <data name="Verify" xml:space="preserve"><value>تحقق</value></data>
+</root>

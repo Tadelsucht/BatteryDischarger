@@ -54,7 +54,7 @@ namespace BatteryDischarger.PlatformSpecificActions
 
         public override IEnumerable<EndActionEnum> GetSupportedEndActions()
         {
-            return new List<EndActionEnum>() { EndActionEnum.Shutdown, EndActionEnum.Sleep, EndActionEnum.Hibernate };
+            return new List<EndActionEnum>() { EndActionEnum.Shutdown, EndActionEnum.Sleep, EndActionEnum.Hibernate, EndActionEnum.DoNothing };
         }
     }
 }

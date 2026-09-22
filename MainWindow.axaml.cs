@@ -36,8 +36,7 @@ namespace BatteryDischarger
             // Icon https://github.com/AvaloniaUI/Avalonia/issues/4488
             StaticHelperCore.TryCatchIgnore(() =>
             {
-                var assets = AvaloniaLocator.Current.GetService<IAssetLoader>();
-                var iconStream = assets.Open(new Uri("avares://BatteryDischarger/Assets/BatteryDischarger.ico"));
+                var iconStream = AssetLoader.Open(new Uri("avares://BatteryDischarger/Assets/BatteryDischarger.ico"));
                 this.Icon = new WindowIcon(iconStream);
             });
 
@@ -53,7 +52,7 @@ namespace BatteryDischarger
             // EndAction
             List<EndActionEnumNamedContainer> useableEndActions = new List<EndActionEnumNamedContainer>();
             foreach (EndActionEnum entry in PlatformSpecificActionsManager.PlatformSpecificEndActions.GetSupportedEndActions()) useableEndActions.Add(new EndActionEnumNamedContainer(entry));
-            cbActionAtTheSelectedBatteryChargeLevel.Items = useableEndActions;
+            cbActionAtTheSelectedBatteryChargeLevel.ItemsSource = useableEndActions;
             foreach (var entry in cbActionAtTheSelectedBatteryChargeLevel.Items)
             {
                 if (((EndActionEnumNamedContainer)entry).EmbeddedEnum == IniConfiguration.Instance.EndAction)
@@ -65,7 +64,7 @@ namespace BatteryDischarger
             cbActionAtTheSelectedBatteryChargeLevel.SelectionChanged += CbActionAtTheSelectedBatteryChargeLevel_SelectionChanged;
 
             // Language
-            cbLanguage.Items = LanguageHandler.GetLanguages();
+            cbLanguage.ItemsSource = LanguageHandler.GetLanguages();
             foreach (var entry in cbLanguage.Items)
             {
                 if (entry.ToString().Substring(0, 2) == IniConfiguration.Instance.Language)
@@ -221,8 +220,8 @@ namespace BatteryDischarger
                 {
                     if (batteryManager.GetEstimatedChargeRemaining() == 0)
                     {
-                        var messageBox = MessageBox.Avalonia.MessageBoxManager.GetMessageBoxStandardWindow(Properties.Resources.Error, Properties.Resources.NoBatteryWasDetected, icon: MessageBox.Avalonia.Enums.Icon.Error);
-                        messageBox.ShowDialog(this);
+                        var messageBox = MsBox.Avalonia.MessageBoxManager.GetMessageBoxStandard(Properties.Resources.Error, Properties.Resources.NoBatteryWasDetected, icon: MsBox.Avalonia.Enums.Icon.Error);
+                        _ = messageBox.ShowWindowDialogAsync(this);
                         return;
                     }
                 });
@@ -235,13 +234,13 @@ namespace BatteryDischarger
                     {
                         if (!batteryManager.IsBatteryDischaring())
                         {
-                            var messageBox = MessageBox.Avalonia.MessageBoxManager.GetMessageBoxStandardWindow(Properties.Resources.Information, Properties.Resources.TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined, icon: MessageBox.Avalonia.Enums.Icon.Info);
-                            messageBox.Show();
+                            var messageBox = MsBox.Avalonia.MessageBoxManager.GetMessageBoxStandard(Properties.Resources.Information, Properties.Resources.TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined, icon: MsBox.Avalonia.Enums.Icon.Info);
+                            _ = messageBox.ShowWindowAsync();
                         }
                     }
                     catch (Exception ex)
                     {
-                        StaticHelperCore.GetErrorMessageBox(ex).ShowDialog(this);
+                        _ = StaticHelperCore.GetErrorMessageBox(ex).ShowWindowDialogAsync(this);
                         return;
                     }
 
@@ -268,36 +267,51 @@ namespace BatteryDischarger
                             {
                                 if (batteryManager.GetEstimatedChargeRemaining() <= IniConfiguration.Instance.TargetBatteryChargeInPercent)
                                 {
-                                    PlatformSpecificActionsManager.TryExecuteEndAction(IniConfiguration.Instance.EndAction);
-                                    Thread.Sleep(10000);
+                                    var endAction = IniConfiguration.Instance.EndAction;
+                                    PlatformSpecificActionsManager.TryExecuteEndAction(endAction);
+                                    if (endAction != EndActionEnum.DoNothing)
+                                    {
+                                        Thread.Sleep(10000);
+                                    }
+                                    else
+                                    {
+                                        StaticHelperCore.TryCatchIgnore(() => batteryWaster.Stop());
+                                    }
                                     ControlledDischargeTask = null;
                                     Dispatcher.UIThread.Post(() =>
                                     {
                                         ToggleStartStop();
-                                        Close();
+                                        tbNumberOfMinutesUntilTheSelectedBatteryLevelIsReached.Text = "-";
+                                        if (endAction != EndActionEnum.DoNothing)
+                                        {
+                                            Close();
+                                        }
                                     }, DispatcherPriority.MaxValue);
                                 }
-                                Dispatcher.UIThread.Post(() =>
+                                if (ControlledDischargeTask is not null)
                                 {
-                                    try
+                                    Dispatcher.UIThread.Post(() =>
                                     {
-                                        var estimatedTime = batteryManager.GetEstimatedTimeLeftUntilGivenPerctageHasBeenReached(IniConfiguration.Instance.TargetBatteryChargeInPercent);
-                                        if (estimatedTimeRingBuffer.Count < estimatedTimeRingBufferIndex + 1)
+                                        try
                                         {
-                                            estimatedTimeRingBuffer.Add(estimatedTime);
-                                        }
-                                        else
-                                        {
-                                            estimatedTimeRingBuffer[estimatedTimeRingBufferIndex] = estimatedTime;
-                                        }
-                                        estimatedTimeRingBufferIndex++;
-                                        if (estimatedTimeRingBufferIndex >= estimatedTimeRingBufferMax) estimatedTimeRingBufferIndex = 0;
+                                            var estimatedTime = batteryManager.GetEstimatedTimeLeftUntilGivenPerctageHasBeenReached(IniConfiguration.Instance.TargetBatteryChargeInPercent);
+                                            if (estimatedTimeRingBuffer.Count < estimatedTimeRingBufferIndex + 1)
+                                            {
+                                                estimatedTimeRingBuffer.Add(estimatedTime);
+                                            }
+                                            else
+                                            {
+                                                estimatedTimeRingBuffer[estimatedTimeRingBufferIndex] = estimatedTime;
+                                            }
+                                            estimatedTimeRingBufferIndex++;
+                                            if (estimatedTimeRingBufferIndex >= estimatedTimeRingBufferMax) estimatedTimeRingBufferIndex = 0;
 
-                                        var calculatedTime = (int)(estimatedTimeRingBuffer.ToList().Sum() / estimatedTimeRingBuffer.Count);
-                                        tbNumberOfMinutesUntilTheSelectedBatteryLevelIsReached.Text = "≈" + calculatedTime.ToString();
-                                    }
-                                    catch { }
-                                }, DispatcherPriority.MaxValue);
+                                            var calculatedTime = (int)(estimatedTimeRingBuffer.ToList().Sum() / estimatedTimeRingBuffer.Count);
+                                            tbNumberOfMinutesUntilTheSelectedBatteryLevelIsReached.Text = "≈" + calculatedTime.ToString();
+                                        }
+                                        catch { }
+                                    }, DispatcherPriority.MaxValue);
+                                }
                             });
 
                             Thread.Sleep(1000);

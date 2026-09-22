@@ -182,4 +182,7 @@ Az akkumulátor szabályozott kisütési folyamata ennek ellenére normálisan z
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>A rendszer nem kívánt hibernációjának megakadályozása:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Ne tegyen semmit</value>
+  </data>
 </root>

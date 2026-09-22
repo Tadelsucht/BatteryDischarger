@@ -10,12 +10,17 @@ namespace BatteryDischarger.Miscellaneous
     public class IniConfiguration
     {
         protected static IniConfiguration instance;
-        private string configurationFilePath = Path.Combine(StaticHelperCore.WorkingDirectoryPath, "Configuration.ini");
+        private readonly string configurationFilePath;
         private IniData data;
         private FileIniDataParser parser;
 
-        protected IniConfiguration()
+        protected IniConfiguration() : this(Path.Combine(StaticHelperCore.WorkingDirectoryPath, "Configuration.ini"))
         {
+        }
+
+        public IniConfiguration(string configurationFilePath)
+        {
+            this.configurationFilePath = configurationFilePath ?? throw new ArgumentNullException(nameof(configurationFilePath));
             parser = new FileIniDataParser();
             if (File.Exists(configurationFilePath))
             {

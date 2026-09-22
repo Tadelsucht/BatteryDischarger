@@ -192,6 +192,9 @@
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
     <value>Gerät in den Energiesparmodus versetzen</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Nichts tun</value>
+  </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Möglicherweise wird das Gerät noch geladen oder es konnte der Batteriestatus nicht ermittelt werden. 
 Der kontrollierte Batterieentladevorgang wird trotzdem folgend normal ausgeführt.</value>

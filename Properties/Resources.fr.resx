@@ -202,4 +202,7 @@ Le processus de décharge contrôlée de la batterie est néanmoins effectué no
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Empêcher la mise en veille indésirable du système:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Ne rien faire</value>
+  </data>
 </root>

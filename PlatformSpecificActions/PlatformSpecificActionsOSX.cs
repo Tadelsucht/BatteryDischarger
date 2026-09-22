@@ -11,7 +11,7 @@ namespace BatteryDischarger.PlatformSpecificActions
 
         public override IEnumerable<EndActionEnum> GetSupportedEndActions()
         {
-            return new List<EndActionEnum>() { EndActionEnum.Shutdown, EndActionEnum.Sleep };
+            return new List<EndActionEnum>() { EndActionEnum.Shutdown, EndActionEnum.Sleep, EndActionEnum.DoNothing };
         }
 
         public override void TryDisablePreventSleep()

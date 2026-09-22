@@ -1,6 +1,7 @@
-﻿using MessageBox.Avalonia.BaseWindows.Base;
-using MessageBox.Avalonia.Enums;
+﻿using MsBox.Avalonia.Base;
+using MsBox.Avalonia.Enums;
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Reflection;
 
@@ -37,6 +38,7 @@ namespace BatteryDischarger.Miscellaneous
         /// WindowsApplicationDirectory
         /// Read & Write
         /// </summary>
+        [ExcludeFromCodeCoverage]
         public static string WorkingDirectoryPath
         {
             get
@@ -81,6 +83,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        [ExcludeFromCodeCoverage]
         public static void TryCatchShowErrorMessageBox(Action action)
         {
             try
@@ -89,13 +92,14 @@ namespace BatteryDischarger.Miscellaneous
             }
             catch (Exception ex)
             {
-                GetErrorMessageBox(ex).Show();
+                _ = GetErrorMessageBox(ex).ShowWindowAsync();
             }
         }
 
-        public static IMsBoxWindow<ButtonResult> GetErrorMessageBox(Exception ex)
+        [ExcludeFromCodeCoverage]
+        public static IMsBox<ButtonResult> GetErrorMessageBox(Exception ex)
         {
-            return MessageBox.Avalonia.MessageBoxManager.GetMessageBoxStandardWindow(Properties.Resources.Error, ex.Message, icon: MessageBox.Avalonia.Enums.Icon.Error);
+            return MsBox.Avalonia.MessageBoxManager.GetMessageBoxStandard(Properties.Resources.Error, ex.Message, icon: MsBox.Avalonia.Enums.Icon.Error);
         }
 
         public static void TryCatchIgnore(Action action)

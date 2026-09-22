@@ -202,4 +202,7 @@
   <data name="Verify" xml:space="preserve">
     <value>확인</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>아무것도 하지 않음</value>
+  </data>
 </root>

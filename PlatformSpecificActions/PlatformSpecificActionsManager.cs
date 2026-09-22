@@ -49,6 +49,9 @@ namespace BatteryDischarger.PlatformSpecificActions
                     PlatformSpecificEndActions.TryHibernate();
                     break;
 
+                case EndActionEnum.DoNothing:
+                    break;
+
                 default:
                     throw new NotSupportedException();
             }

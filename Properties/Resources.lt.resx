@@ -182,4 +182,7 @@ Kontroliuojamas akumuliatoriaus iškrovimo procesas vis dėlto vyksta įprastai.
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Užkirsti kelią nepageidaujamam sistemos užmigdymui:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Nieko nedaryti</value>
+  </data>
 </root>

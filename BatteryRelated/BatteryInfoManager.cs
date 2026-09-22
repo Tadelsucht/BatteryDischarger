@@ -5,7 +5,16 @@ namespace BatteryDischarger.BatteryRelated
 {
     public class BatteryInfoManager
     {
-        private static readonly IHardwareInfo hardwareInfo = new HardwareInfo();
+        private readonly IHardwareInfo hardwareInfo;
+
+        public BatteryInfoManager() : this(new HardwareInfo())
+        {
+        }
+
+        public BatteryInfoManager(IHardwareInfo hardwareInfo)
+        {
+            this.hardwareInfo = hardwareInfo ?? throw new ArgumentNullException(nameof(hardwareInfo));
+        }
 
         public bool IsBatteryDischaring()
         {
@@ -40,11 +49,7 @@ namespace BatteryDischarger.BatteryRelated
             hardwareInfo.RefreshBatteryList();
             if (hardwareInfo.BatteryList.Count == 0) throw new NotSupportedException(Properties.Resources.NoBatteryWasDetected);
             if (hardwareInfo.BatteryList.Count > 1) throw new NotSupportedException(Properties.Resources.MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram);
-            foreach (Battery battery in hardwareInfo.BatteryList)
-            {
-                return battery;
-            }
-            throw new NotSupportedException(Properties.Resources.TheBatteryStatusCouldNotBeDetermined);
+            return hardwareInfo.BatteryList[0];
         }
 
         // https://docs.microsoft.com/en-us/windows/win32/cimwin32prov/win32-battery

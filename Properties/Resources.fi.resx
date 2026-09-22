@@ -182,4 +182,7 @@ Ohjattu akun purkausprosessi suoritetaan kuitenkin normaalisti.</value>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Estää järjestelmän ei-toivotun horrostilan:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Älä tee mitään</value>
+  </data>
 </root>

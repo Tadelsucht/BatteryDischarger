@@ -202,4 +202,7 @@ No obstante, el proceso de descarga controlada de la batería se lleva a cabo co
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Evitar la hibernación no deseada del sistema:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>No hacer nada</value>
+  </data>
 </root>

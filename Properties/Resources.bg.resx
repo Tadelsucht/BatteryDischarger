@@ -182,4 +182,7 @@
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
     <value>Предотвратяване на нежелана хибернация на системата:</value>
   </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Не прави нищо</value>
+  </data>
 </root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AccelerateBatteryDischarge" xml:space="preserve"><value>Tăng tốc xả pin:</value></data>
+  <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve"><value>Hành động khi đạt mức sạc pin đã chọn:</value></data>
+  <data name="CheckCorrect" xml:space="preserve"><value>✔</value></data>
+  <data name="CheckIncorrect" xml:space="preserve"><value>❌</value></data>
+  <data name="CurrentBatteryChargeInPercent" xml:space="preserve"><value>Mức sạc pin hiện tại theo phần trăm:</value></data>
+  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve"><value>Không tìm thấy WorkingDirectoryPath có thể sử dụng.</value></data>
+  <data name="DoNothing" xml:space="preserve"><value>Không làm gì</value></data>
+  <data name="Error" xml:space="preserve"><value>Lỗi</value></data>
+  <data name="HibernateDevice" xml:space="preserve"><value>Đưa thiết bị vào chế độ ngủ đông</value></data>
+  <data name="Information" xml:space="preserve"><value>Thông tin</value></data>
+  <data name="LanguageColon" xml:space="preserve"><value>Ngôn ngữ:</value></data>
+  <data name="LegalNotice" xml:space="preserve"><value>Thông báo pháp lý</value></data>
+  <data name="LicenseCodeColon" xml:space="preserve"><value>Mã giấy phép:</value></data>
+  <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve"><value>Đã phát hiện nhiều hơn một pin, điều này không được chương trình hỗ trợ.</value></data>
+  <data name="NoBatteryWasDetected" xml:space="preserve"><value>Không phát hiện pin.</value></data>
+  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve"><value>Số phút cho đến khi đạt mức pin đã chọn:</value></data>
+  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve"><value>Ngăn hệ thống chuyển sang chế độ ngủ không mong muốn:</value></data>
+  <data name="SetDeviceToPowerSavingMode" xml:space="preserve"><value>Đặt thiết bị vào chế độ tiết kiệm năng lượng</value></data>
+  <data name="ShutDownDevice" xml:space="preserve"><value>Tắt thiết bị</value></data>
+  <data name="StartControlledDischarge" xml:space="preserve"><value>Bắt đầu xả pin có kiểm soát</value></data>
+  <data name="StopControlledDischarge" xml:space="preserve"><value>Dừng xả pin có kiểm soát</value></data>
+  <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve"><value>Cấu trúc của mã giấy phép được chỉ định không đúng.</value></data>
+  <data name="TargetBatteryChargeInPercent" xml:space="preserve"><value>Mức sạc pin mục tiêu (theo phần trăm):</value></data>
+  <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve"><value>Không thể xác định trạng thái pin.</value></data>
+  <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve"><value>Thiết bị có thể vẫn đang sạc hoặc không thể xác định trạng thái pin.
+Quá trình xả pin có kiểm soát vẫn được thực hiện bình thường.</value></data>
+  <data name="TheLicenseCodeIsNotValid" xml:space="preserve"><value>Mã giấy phép không hợp lệ.</value></data>
+  <data name="TheOperatingSystemIsNotSupported" xml:space="preserve"><value>Hệ điều hành không được hỗ trợ.</value></data>
+  <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve"><value>Chỉ có thể sử dụng chương trình sau khi nhập mã giấy phép hợp lệ.</value></data>
+  <data name="Verify" xml:space="preserve"><value>Xác minh</value></data>
+</root>
