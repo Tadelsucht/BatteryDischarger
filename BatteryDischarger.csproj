@@ -7,9 +7,9 @@
     <TrimMode>copyused</TrimMode>
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     <ApplicationIcon>Assets\BatteryDischarger.ico</ApplicationIcon>
-    <Version>2023.04.19.1406</Version>
-    <AssemblyVersion>2023.04.19.1406</AssemblyVersion>
-    <FileVersion>2023.04.19.1406</FileVersion>
+    <Version>2026.09.22.2000</Version>
+    <AssemblyVersion>2026.09.22.2000</AssemblyVersion>
+    <FileVersion>2026.09.22.2000</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <AvaloniaResource Include="Assets\**" />
