@@ -5,10 +5,13 @@ using System.Runtime.InteropServices;
 
 namespace BatteryDischarger.PlatformSpecificActions
 {
+    // Selects the current OS adapter and routes configured end actions to its best-effort implementation.
     public static class PlatformSpecificActionsManager
     {
+        // Optional adapter override; while unset, the getter selects an adapter from the current host each time.
         private static APlatformSpecificActions _PlatformSpecificEndActions { get; set; }
 
+        // Creates the adapter for the detected host; unknown hosts use the combined fallback adapter.
         public static APlatformSpecificActions PlatformSpecificEndActions
         {
             get
@@ -33,6 +36,7 @@ namespace BatteryDischarger.PlatformSpecificActions
             }
         }
 
+        // Maps the persisted action to one platform request; DoNothing deliberately makes no OS call.
         public static void TryExecuteEndAction(EndActionEnum endAction)
         {
             switch (endAction)
@@ -57,16 +61,19 @@ namespace BatteryDischarger.PlatformSpecificActions
             }
         }
 
+        // Starts a best-effort process without waiting for it or verifying its operating-system effect.
         public static void TryCatchStartProcess(string fileName)
         {
             try { Process.Start(fileName); } catch { }
         }
 
+        // Starts a process with one argument string; startup errors are swallowed for legacy callers.
         public static void TryCatchStartProcess(string fileName, string arguments)
         {
             try { Process.Start(fileName, arguments); } catch { }
         }
 
+        // Starts a process with separate arguments; success does not mean the requested action completed.
         public static void TryCatchStartProcess(string fileName, IEnumerable<string> arguments)
         {
             try { Process.Start(fileName, arguments); } catch { }

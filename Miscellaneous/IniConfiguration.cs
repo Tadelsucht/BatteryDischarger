@@ -7,17 +7,24 @@ using System.IO;
 
 namespace BatteryDischarger.Miscellaneous
 {
+    // Loads UI preferences from an INI file and persists each property update immediately.
     public class IniConfiguration
     {
+        // Lazily shared application configuration; path-based instances remain available to isolated callers.
         protected static IniConfiguration instance;
+        // Fixed at construction so later writes always target the same configuration file.
         private readonly string configurationFilePath;
+        // Holds parsed values, including defaults supplied by getters when entries are absent or malformed.
         private IniData data;
+        // Serializes writes through the parser instance used for this configuration file.
         private FileIniDataParser parser;
 
+        // Uses the application's selected writable directory for the normal singleton instance.
         protected IniConfiguration() : this(Path.Combine(StaticHelperCore.WorkingDirectoryPath, "Configuration.ini"))
         {
         }
 
+        // Loads the requested file when present and starts with an empty INI model otherwise.
         public IniConfiguration(string configurationFilePath)
         {
             this.configurationFilePath = configurationFilePath ?? throw new ArgumentNullException(nameof(configurationFilePath));
@@ -32,6 +39,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Creates one process-wide configuration object on first access.
         public static IniConfiguration Instance
         {
             get
@@ -41,6 +49,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Persists the UI language code; missing or unreadable values fall back to the current culture.
         public string Language
         {
             get
@@ -61,6 +70,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Stores a battery percentage target; missing or malformed values use the established 30 percent default.
         public int TargetBatteryChargeInPercent
         {
             get
@@ -88,6 +98,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Stores whether optional CPU-load workers are enabled; legacy or missing values default to true.
         public bool AccelerateBatteryDischarge
         {
             get
@@ -108,6 +119,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Stores the requested sleep-prevention preference; missing or malformed values default to true.
         public bool PreventUnwantedSystemSleepMode
         {
             get
@@ -128,6 +140,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Stores the enum name for compatibility with existing INI files and defaults to shutdown on parse failure.
         public EndActionEnum EndAction
         {
             get
@@ -148,6 +161,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Serializes file writes and reports persistence failures to the console without changing the in-memory value.
         protected void Save()
         {
             lock (parser)

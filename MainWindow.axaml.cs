@@ -16,13 +16,19 @@ using System.Threading.Tasks;
 
 namespace BatteryDischarger
 {
+    // Owns the battery monitor, persistent UI settings, and transitions for one controlled-discharge window.
     public partial class MainWindow : Window
     {
+        // Centralizes provider access so display and discharge calculations use the same battery boundary.
         private BatteryInfoManager batteryManager;
+        // Supplies optional CPU work while the independent discharge monitor is active.
         private BatteryWaster batteryWaster;
+        // Serializes start/stop UI transitions initiated by events or the monitor task.
         private object StartStopLock = new object();
+        // A null reference is the monitor loop's cancellation signal; this static field is shared by the application.
         private static Task ControlledDischargeTask = null;
 
+        // Initializes controls, restores persisted settings, wires events, and starts the battery display refresh.
         public MainWindow()
         {
             // Helper
@@ -81,6 +87,7 @@ namespace BatteryDischarger
             cbPreventUnwantedSystemSleepMode.IsChecked = IniConfiguration.Instance.PreventUnwantedSystemSleepMode;
 
             // Battery info
+            // Keep the charge display current independently of whether controlled discharge is running.
             Task.Run(() =>
             {
                 while (true)
@@ -106,11 +113,13 @@ namespace BatteryDischarger
             }
         }
 
+        // Persists the requested sleep-prevention preference; the OS request is applied when run state changes.
         private void CbPreventUnwantedSystemSleepMode_PropertyChanged(object? sender, AvaloniaPropertyChangedEventArgs e)
         {
             if (cbPreventUnwantedSystemSleepMode.IsChecked.HasValue) IniConfiguration.Instance.PreventUnwantedSystemSleepMode = cbPreventUnwantedSystemSleepMode.IsChecked.Value;
         }
 
+        // Restarts after a language change because resource culture is selected during process startup.
         private void CbLanguage_SelectionChanged(object? sender, SelectionChangedEventArgs e)
         {
             if (cbLanguage.SelectedItem is not null)
@@ -128,6 +137,7 @@ namespace BatteryDischarger
             }
         }
 
+        // Persists the selected platform action by its enum value for the next application run.
         private void CbActionAtTheSelectedBatteryChargeLevel_SelectionChanged(object? sender, SelectionChangedEventArgs e)
         {
             if (cbActionAtTheSelectedBatteryChargeLevel.SelectedItem is not null)
@@ -137,6 +147,7 @@ namespace BatteryDischarger
             }
         }
 
+        // Opens the localized legal-notice window as a dialog owned by the main window.
         private void BLegalNotice_Click(object? sender, RoutedEventArgs e)
         {
             StaticHelperCore.TryCatchShowErrorMessageBox(() =>
@@ -146,11 +157,13 @@ namespace BatteryDischarger
             });
         }
 
+        // Persists whether the optional CPU-load workers should be used in the next discharge run.
         private void CbAccelerateBatteryDischarge_PropertyChanged(object? sender, Avalonia.AvaloniaPropertyChangedEventArgs e)
         {
             if (cbAccelerateBatteryDischarge.IsChecked.HasValue) IniConfiguration.Instance.AccelerateBatteryDischarge = cbAccelerateBatteryDischarge.IsChecked.Value;
         }
 
+        // Stops the monitor and optional load workers, then restores the idle controls and estimate display.
         private void BStopControlledDischarge_Click(object? sender, RoutedEventArgs e)
         {
             lock (StartStopLock)
@@ -170,6 +183,7 @@ namespace BatteryDischarger
             }
         }
 
+        // Keeps button visibility, editable controls, and the requested keep-awake state in sync with run state.
         private void ToggleStartStop()
         {
             lock (StartStopLock)
@@ -195,6 +209,7 @@ namespace BatteryDischarger
             }
         }
 
+        // Accepts only integer percentage values in range and keeps the slider and persisted setting synchronized.
         private void TbTargetBatteryChargeInPercent_PropertyChanged(object? sender, Avalonia.AvaloniaPropertyChangedEventArgs e)
         {
             if (int.TryParse(((TextBox)sender).Text, out int result))
@@ -211,6 +226,7 @@ namespace BatteryDischarger
             }
         }
 
+        // Validates battery availability, optionally starts CPU workers, and monitors the target until stop or completion.
         private void BStartControlledDischarge_Click(object? sender, RoutedEventArgs e)
         {
             lock (StartStopLock)
@@ -275,6 +291,7 @@ namespace BatteryDischarger
                                     }
                                     else
                                     {
+                                        // The no-power-action path still terminates optional load workers and keeps the window open.
                                         StaticHelperCore.TryCatchIgnore(() => batteryWaster.Stop());
                                     }
                                     ControlledDischargeTask = null;
@@ -290,6 +307,7 @@ namespace BatteryDischarger
                                 }
                                 if (ControlledDischargeTask is not null)
                                 {
+                                    // Averaging recent hardware estimates reduces visible jumps without changing the target check.
                                     Dispatcher.UIThread.Post(() =>
                                     {
                                         try
@@ -325,6 +343,7 @@ namespace BatteryDischarger
             }
         }
 
+        // Copies slider changes to the text field while avoiding a redundant update when both controls already agree.
         private void STargetBatteryChargeInPercent_PropertyChanged(object? sender, Avalonia.AvaloniaPropertyChangedEventArgs e)
         {
             var value = ((int)((Slider)sender).Value).ToString();

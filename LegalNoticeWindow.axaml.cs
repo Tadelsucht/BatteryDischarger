@@ -6,8 +6,10 @@ using System.IO;
 
 namespace BatteryDischarger
 {
+    // Displays the bundled legal notice in a dedicated Avalonia window.
     public partial class LegalNoticeWindow : Window
     {
+        // Loads the bundled notice text and its window icon after the XAML controls are initialized.
         public LegalNoticeWindow()
         {
             // GUI

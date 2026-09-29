@@ -1,3 +1,4 @@
+<!-- Keep the interface light across host theme settings; the app exposes no theme switch. -->
 <Application
     x:Class="BatteryDischarger.App"
     xmlns="https://github.com/avaloniaui"

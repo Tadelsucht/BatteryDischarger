@@ -7,14 +7,15 @@ using System.Reflection;
 
 namespace BatteryDischarger.Miscellaneous
 {
+    // Shared path, filesystem-probe, and error-dialog helpers used by the desktop application.
     public static class StaticHelperCore
     {
+        // Application-specific folder name used when the executable directory is not writable.
         public const string AppDataSubFolder = "BatteryDischarger";
+        // Caches the selected writable location for this process after its first lookup.
         private static string workingDirectoryPath;
 
-        /// <summary>
-        /// Read only
-        /// </summary>
+        // Returns the directory containing the launched application assembly.
         public static string CurrentApplicationDirectory
         {
             get
@@ -23,6 +24,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Returns the current user's ApplicationData directory without an app-specific suffix.
         public static string ApplicationDirectory
         {
             get
@@ -31,13 +33,11 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Returns the version embedded in the executing assembly metadata.
         public static string Version
         { get { return Assembly.GetExecutingAssembly().GetName().Version.ToString(); } }
 
-        /// <summary>
-        /// WindowsApplicationDirectory
-        /// Read & Write
-        /// </summary>
+        // Chooses a writable configuration directory, preferring the app directory before the app-specific data folder.
         [ExcludeFromCodeCoverage]
         public static string WorkingDirectoryPath
         {
@@ -67,6 +67,7 @@ namespace BatteryDischarger.Miscellaneous
         }
 
         // https://stackoverflow.com/a/6371533/4172756
+        // Probes write access by creating a uniquely named file that is deleted when the stream closes.
         public static bool IsDirectoryWritable(string dirPath, bool throwIfFails = false)
         {
             try
@@ -83,6 +84,7 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Runs a UI action and reports its exception through the standard asynchronous error dialog.
         [ExcludeFromCodeCoverage]
         public static void TryCatchShowErrorMessageBox(Action action)
         {
@@ -96,12 +98,14 @@ namespace BatteryDischarger.Miscellaneous
             }
         }
 
+        // Builds the localized standard error dialog for a caught exception.
         [ExcludeFromCodeCoverage]
         public static IMsBox<ButtonResult> GetErrorMessageBox(Exception ex)
         {
             return MsBox.Avalonia.MessageBoxManager.GetMessageBoxStandard(Properties.Resources.Error, ex.Message, icon: MsBox.Avalonia.Enums.Icon.Error);
         }
 
+        // Suppresses all action failures; call only where losing the error is acceptable to the caller.
         public static void TryCatchIgnore(Action action)
         {
             try

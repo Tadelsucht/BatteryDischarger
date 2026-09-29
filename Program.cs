@@ -9,9 +9,13 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace BatteryDischarger
 {
+    // Owns process startup and applies supported command-line overrides to application configuration.
     public class Program
     {
+        // Set by the command line so the window can enter controlled discharge after startup.
         public static bool Autostart = false;
+
+        // These names are a compatibility contract for existing launch scripts and saved shortcuts.
         private const string CMDParameterAutostart = "Autostart";
         private const string CMDParameterLanguage = "Language";
         private const string CMDParameterAccelerateBatteryDischarge = "AccelerateBatteryDischarge";
@@ -21,6 +25,7 @@ namespace BatteryDischarger
         // Initialization code. Don't use any Avalonia, third-party APIs or any
         // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
         // yet and stuff might break.
+        // Applies saved settings and command-line overrides before opening the desktop lifetime.
         [STAThread]
         [ExcludeFromCodeCoverage]
         public static void Main(string[] args)
@@ -55,12 +60,14 @@ namespace BatteryDischarger
             BuildAvaloniaApp().StartWithClassicDesktopLifetime(args);
         }
 
+        // Provides the platform-detected builder shared by application startup and Avalonia tooling.
         // Avalonia configuration, don't remove; also used by visual designer.
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
                 .LogToTrace();
 
+        // Reads the token immediately after the first matching option; a missing option or value returns false.
         public static bool TryGetParameterData(string[] args, string parameter, out string data)
         {
             data = null;

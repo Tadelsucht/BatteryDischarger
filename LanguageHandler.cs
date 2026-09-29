@@ -4,8 +4,10 @@ using System.Globalization;
 
 namespace BatteryDischarger
 {
+    // Defines the language codes that the UI can select and resolve through .NET cultures.
     public static class LanguageHandler
     {
+        // Keep these ISO language codes aligned with the available UI resource files.
         public enum Languages
         {
             ar,
@@ -42,6 +44,7 @@ namespace BatteryDischarger
             zh
         }
 
+        // Returns stable language-code prefixes together with the display names from the current culture data.
         public static IEnumerable<string> GetLanguages()
         {
             foreach (Languages entry in Enum.GetValues(typeof(Languages)))
