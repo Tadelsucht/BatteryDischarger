@@ -98,31 +98,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>Εντοπίστηκαν περισσότερες από μία μπαταρίες, οι οποίες δεν υποστηρίζονται από το πρόγραμμα.</value>
+    <value>Εντοπίστηκαν περισσότερες από μία μπαταρίες. Το πρόγραμμα δεν υποστηρίζει πολλαπλές μπαταρίες.</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
     <value>Δεν εντοπίστηκε μπαταρία.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Έναρξη ελεγχόμενης απόρριψης</value>
+    <value>Έναρξη ελεγχόμενης εκφόρτισης</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Στόχος φόρτισης μπαταρίας (σε ποσοστό):</value>
+    <value>Επιθυμητό επίπεδο φόρτισης μπαταρίας (σε ποσοστό):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Η κατάσταση της μπαταρίας δεν μπόρεσε να προσδιοριστεί.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Διακοπή ελεγχόμενης απόρριψης</value>
+    <value>Διακοπή ελεγχόμενης εκφόρτισης</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Επιταχύνει την αποφόρτιση της μπαταρίας:</value>
+    <value>Επιτάχυνση εκφόρτισης μπαταρίας:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Σφάλμα</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Δεν βρέθηκε ένα χρησιμοποιήσιμο WorkingDirectoryPath.</value>
+    <value>Δεν βρέθηκε κατάλληλος κατάλογος εργασίας.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Γλώσσα:</value>
@@ -155,32 +155,32 @@
     <value>Επαλήθευση</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Αριθμός λεπτών μέχρι να επιτευχθεί η επιλεγμένη στάθμη μπαταρίας:</value>
+    <value>Χρόνος έως το επιλεγμένο επίπεδο φόρτισης (σε λεπτά):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Ενέργεια όταν επιτευχθεί το επιλεγμένο επίπεδο μπαταρίας:</value>
+    <value>Ενέργεια στο επιλεγμένο επίπεδο φόρτισης:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Τρέχουσα φόρτιση της μπαταρίας σε ποσοστό:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Κλείστε το μηχάνημα</value>
+    <value>Τερματισμός λειτουργίας της συσκευής</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Συσκευή αδρανοποίησης</value>
+    <value>Αδρανοποίηση της συσκευής</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Ρύθμιση της συσκευής σε λειτουργία εξοικονόμησης ενέργειας</value>
+    <value>Αναστολή λειτουργίας της συσκευής</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Η μονάδα μπορεί να φορτίζει ακόμα ή η κατάσταση της μπαταρίας δεν ήταν δυνατό να προσδιοριστεί.
-Η ελεγχόμενη διαδικασία εκφόρτισης της μπαταρίας πραγματοποιείται κανονικά.</value>
+    <value>Η συσκευή ενδέχεται να φορτίζεται ακόμη ή δεν ήταν δυνατό να προσδιοριστεί η κατάσταση της μπαταρίας.
+Η ελεγχόμενη εκφόρτιση της μπαταρίας θα συνεχιστεί κανονικά.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Πληροφορίες</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Αποτροπή ανεπιθύμητης αδρανοποίησης του συστήματος:</value>
+    <value>Αποτροπή αυτόματης αναστολής λειτουργίας:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Να μην γίνει τίποτα</value>

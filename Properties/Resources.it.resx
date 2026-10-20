@@ -98,31 +98,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>È stata rilevata più di una batteria, che non è supportata dal programma.</value>
+    <value>È stata rilevata più di una batteria. Il programma non supporta più batterie.</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
     <value>Non è stata rilevata alcuna batteria.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Iniziare lo scarico controllato</value>
+    <value>Avvia la scarica controllata</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Obiettivo di carica della batteria (in percentuale):</value>
+    <value>Livello di carica desiderato (in percentuale):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Non è stato possibile determinare lo stato della batteria.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Interrompere lo scarico controllato</value>
+    <value>Interrompi la scarica controllata</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Accelerare la scarica della batteria:</value>
+    <value>Accelera la scarica della batteria:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Errore</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Non ha trovato un WorkingDirectoryPath utilizzabile.</value>
+    <value>Non è stata trovata una cartella di lavoro utilizzabile.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Lingua:</value>
@@ -155,32 +155,32 @@
     <value>Verifica</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Numero di minuti fino al raggiungimento del livello di batteria selezionato:</value>
+    <value>Minuti rimanenti al livello di carica selezionato:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Azione quando viene raggiunto il livello di batteria selezionato:</value>
+    <value>Azione al raggiungimento del livello di carica selezionato:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Carica attuale della batteria in percentuale:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Spegnere la macchina</value>
+    <value>Spegni il dispositivo</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Ibernazione del dispositivo</value>
+    <value>Iberna il dispositivo</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Impostare il dispositivo sulla modalità di risparmio energetico</value>
+    <value>Sospendi il dispositivo</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>L'unità potrebbe essere ancora in carica o non è stato possibile determinare lo stato della batteria.
-Il processo di scarica controllata della batteria si svolge comunque normalmente.</value>
+    <value>Il dispositivo potrebbe essere ancora in carica oppure non è stato possibile determinare lo stato della batteria.
+La scarica controllata della batteria proseguirà comunque normalmente.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informazioni</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Prevenire l'ibernazione indesiderata del sistema:</value>
+    <value>Impedisci la sospensione automatica:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Non fare nulla</value>

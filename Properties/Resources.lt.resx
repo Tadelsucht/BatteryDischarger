@@ -98,31 +98,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>Buvo aptiktas daugiau nei vienas akumuliatorius, kurio programa nepalaiko.</value>
+    <value>Aptiktas daugiau nei vienas akumuliatorius. Programa nepalaiko kelių akumuliatorių.</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
     <value>Akumuliatoriaus neaptikta.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Kontroliuojamo iškrovimo pradžia</value>
+    <value>Pradėti kontroliuojamą iškrovimą</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Tikslinė akumuliatoriaus įkrovos vertė (procentais):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Akumuliatoriaus būklės nustatyti nepavyko.</value>
+    <value>Nepavyko nustatyti akumuliatoriaus būsenos.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
     <value>Sustabdyti kontroliuojamą iškrovimą</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Pagreitinkite akumuliatoriaus išsikrovimą:</value>
+    <value>Pagreitinti akumuliatoriaus iškrovimą:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Klaida</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Nerado tinkamo darbinio katalogo kelio.</value>
+    <value>Nerastas tinkamas darbinis katalogas.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Kalba:</value>
@@ -152,35 +152,35 @@
     <value>Licencijos kodas:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Patikrinkite</value>
+    <value>Tikrinti</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Minučių skaičius, kol bus pasiektas pasirinktas akumuliatoriaus lygis:</value>
+    <value>Laikas iki pasirinkto įkrovos lygio (minutėmis):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Veiksmas, kai pasiekiamas pasirinktas akumuliatoriaus lygis:</value>
+    <value>Veiksmas pasiekus pasirinktą įkrovos lygį:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>Dabartinis akumuliatoriaus įkrovimas procentais:</value>
+    <value>Dabartinė akumuliatoriaus įkrova procentais:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Išjunkite mašiną</value>
+    <value>Išjungti įrenginį</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Užmigdymo įrenginys</value>
+    <value>Įjungti įrenginio užmigdymo režimą</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Įrenginio nustatymas į energijos taupymo režimą</value>
+    <value>Įjungti įrenginio miego režimą</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Įrenginys gali būti vis dar įkraunamas arba akumuliatoriaus būsenos nustatyti nepavyko.
-Kontroliuojamas akumuliatoriaus iškrovimo procesas vis dėlto vyksta įprastai.</value>
+    <value>Įrenginys galbūt vis dar kraunamas arba nepavyko nustatyti akumuliatoriaus būsenos.
+Kontroliuojamas akumuliatoriaus iškrovimas vis tiek bus tęsiamas įprastai.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informacija</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Užkirsti kelią nepageidaujamam sistemos užmigdymui:</value>
+    <value>Neleisti sistemai automatiškai užmigti:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Nieko nedaryti</value>

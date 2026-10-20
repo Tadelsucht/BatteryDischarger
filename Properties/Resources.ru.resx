@@ -124,7 +124,7 @@
     <value>Батарея не обнаружена.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Запуск контролируемой разгрузки</value>
+    <value>Начать контролируемый разряд</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Целевой заряд батареи (в процентах):</value>
@@ -133,16 +133,16 @@
     <value>Не удалось определить состояние батареи.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Остановить контролируемую разгрузку</value>
+    <value>Остановить контролируемый разряд</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Ускорить разрядку аккумулятора:</value>
+    <value>Ускорить разряд батареи:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Ошибка</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Не найден подходящий рабочий путь (WorkingDirectoryPath).</value>
+    <value>Не удалось найти подходящую рабочую папку.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Язык:</value>
@@ -175,32 +175,32 @@
     <value>Проверить</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Количество минут до достижения выбранного уровня заряда батареи:</value>
+    <value>Время до выбранного уровня заряда (в минутах):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Действие при достижении выбранного уровня заряда батареи:</value>
+    <value>Действие при выбранном уровне заряда:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Текущий заряд батареи в процентах:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Выключите машину</value>
+    <value>Выключить устройство</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Устройство в спящем режиме</value>
+    <value>Перевести устройство в режим гибернации</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Переведите устройство в режим энергосбережения</value>
+    <value>Перевести устройство в спящий режим</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Возможно, устройство все еще заряжается или состояние батареи не удалось определить.
-Тем не менее, контролируемый процесс разряда аккумулятора происходит нормально.</value>
+    <value>Возможно, устройство ещё заряжается или не удалось определить состояние батареи.
+Контролируемый разряд батареи всё равно продолжится в обычном режиме.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Информация</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Предотвращение нежелательного перехода системы в спящий режим:</value>
+    <value>Предотвращать автоматический переход в спящий режим:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Ничего не делать</value>

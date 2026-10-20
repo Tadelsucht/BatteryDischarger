@@ -98,13 +98,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>Bylo zjištěno více než jedna baterie, což program nepodporuje.</value>
+    <value>Byla zjištěna více než jedna baterie, což program nepodporuje.</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
     <value>Nebyla zjištěna žádná baterie.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Spuštění řízeného vybíjení</value>
+    <value>Spustit řízené vybíjení</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Cílové nabití baterie (v procentech):</value>
@@ -113,16 +113,16 @@
     <value>Stav baterie se nepodařilo zjistit.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Zastavení řízeného vypouštění</value>
+    <value>Zastavit řízené vybíjení</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Urychlete vybíjení baterie:</value>
+    <value>Urychlit vybíjení baterie:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Chyba</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Nebyla nalezena použitelná cesta WorkingDirectoryPath.</value>
+    <value>Nebyl nalezen použitelný pracovní adresář.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Jazyk:</value>
@@ -155,32 +155,32 @@
     <value>Ověřit</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Počet minut do dosažení zvolené úrovně nabití baterie:</value>
+    <value>Zbývající čas do zvolené úrovně nabití (v minutách):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Akce po dosažení zvolené úrovně nabití baterie:</value>
+    <value>Akce při dosažení zvolené úrovně nabití:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Aktuální nabití baterie v procentech:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Vypnutí stroje</value>
+    <value>Vypnout zařízení</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Hibernace zařízení</value>
+    <value>Přepnout zařízení do režimu hibernace</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Nastavení zařízení do úsporného režimu</value>
+    <value>Přepnout zařízení do režimu spánku</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Je možné, že se jednotka stále nabíjí, nebo se stav baterie nepodařilo zjistit.
-Řízené vybíjení baterie přesto probíhá normálně.</value>
+    <value>Zařízení se možná stále nabíjí nebo se nepodařilo zjistit stav baterie.
+Řízené vybíjení baterie přesto bude pokračovat jako obvykle.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informace</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Zabránění nežádoucímu hibernaci systému:</value>
+    <value>Zabránit automatickému uspání systému:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Nedělat nic</value>

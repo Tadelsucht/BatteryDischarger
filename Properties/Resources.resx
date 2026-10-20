@@ -121,7 +121,7 @@
     <value>Accelerate battery discharge:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Action when the selected battery charge level is reached:</value>
+    <value>Action at the selected battery level:</value>
   </data>
   <data name="CheckCorrect" xml:space="preserve">
     <value>✔</value>
@@ -133,7 +133,7 @@
     <value>Current battery charge in percent:</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Did not found a useable WorkingDirectoryPath.</value>
+    <value>No usable working directory was found.</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Do nothing</value>
@@ -163,13 +163,13 @@
     <value>No battery was detected.</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Number of minutes until the selected battery level is reached:</value>
+    <value>Minutes remaining until the selected battery level is reached:</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Prevent unwanted system sleep mode:</value>
+    <value>Prevent automatic sleep:</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Set device to power saving mode</value>
+    <value>Put device to sleep</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
     <value>Shut down device</value>
@@ -181,7 +181,7 @@
     <value>Stop controlled discharge</value>
   </data>
   <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve">
-    <value>Structure of the specified license code is not correct.</value>
+    <value>The specified license code has an invalid format.</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Target battery charge (in percent):</value>
@@ -190,8 +190,8 @@
     <value>The battery status could not be determined.</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>The device may still be charging or the battery status could not be determined.
-The controlled battery discharge process is nevertheless carried out normally.</value>
+    <value>The device may still be charging, or the battery status could not be determined.
+Controlled battery discharge will continue as normal.</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
     <value>The license code is not valid.</value>

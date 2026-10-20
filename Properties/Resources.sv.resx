@@ -104,16 +104,16 @@
     <value>Inget batteri upptäcktes.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Börja med kontrollerad urladdning</value>
+    <value>Starta kontrollerad urladdning</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Målbatteriladdning (i procent):</value>
+    <value>Önskad batterinivå (i procent):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Batteristatusen kunde inte fastställas.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Stoppa kontrollerat utsläpp</value>
+    <value>Stoppa kontrollerad urladdning</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
     <value>Snabbare urladdning av batteriet:</value>
@@ -122,7 +122,7 @@
     <value>Fel</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Hittade ingen användbar WorkingDirectoryPath.</value>
+    <value>Ingen användbar arbetsmapp hittades.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Språk:</value>
@@ -161,16 +161,16 @@
     <value>Åtgärd när den valda batterinivån är uppnådd:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>Aktuell batteriladdning i procent:</value>
+    <value>Aktuell batterinivå i procent:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Stänga av maskinen</value>
+    <value>Stäng av enheten</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Enhet för viloläge</value>
+    <value>Försätt enheten i viloläge</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Ställ in enheten i energisparläge</value>
+    <value>Försätt enheten i strömsparläge</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Det kan hända att enheten fortfarande laddas eller att batteristatusen inte kunde fastställas.
@@ -180,7 +180,7 @@ Den kontrollerade urladdningen av batteriet sker dock normalt.</value>
     <value>Information</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Förhindra oönskad dvala i systemet:</value>
+    <value>Förhindra automatiskt strömsparläge:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Gör ingenting</value>

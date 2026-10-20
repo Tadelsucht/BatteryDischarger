@@ -124,7 +124,7 @@
     <value>Aucune batterie n'a été détectée.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Début de la décharge contrôlée</value>
+    <value>Démarrer la décharge contrôlée</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Charge cible de la batterie (en pourcentage) :</value>
@@ -133,7 +133,7 @@
     <value>L'état de la batterie n'a pas pu être déterminé.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Arrêt de la décharge contrôlée</value>
+    <value>Arrêter la décharge contrôlée</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
     <value>Accélérer la décharge de la batterie :</value>
@@ -142,13 +142,13 @@
     <value>Erreur</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>N'a pas trouvé un WorkingDirectoryPath utilisable.</value>
+    <value>Aucun dossier de travail utilisable n'a été trouvé.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Langue :</value>
   </data>
   <data name="LegalNotice" xml:space="preserve">
-    <value>Avis juridique</value>
+    <value>Mentions légales</value>
   </data>
   <data name="TheOperatingSystemIsNotSupported" xml:space="preserve">
     <value>Le système d'exploitation n'est pas pris en charge.</value>
@@ -160,7 +160,7 @@
     <value>Le code de licence n'est pas valide.</value>
   </data>
   <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve">
-    <value>Le programme ne peut être utilisé qu'après l'introduction d'un code de licence valable.</value>
+    <value>Le programme ne peut être utilisé qu'après la saisie d'un code de licence valide.</value>
   </data>
   <data name="CheckCorrect" xml:space="preserve">
     <value>✔</value>
@@ -175,10 +175,10 @@
     <value>Vérifier</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Nombre de minutes avant d'atteindre le niveau de batterie sélectionné :</value>
+    <value>Temps restant avant d'atteindre le niveau de charge sélectionné (en minutes) :</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Action lorsque le niveau de batterie sélectionné est atteint :</value>
+    <value>Action au niveau de charge sélectionné :</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Pourcentage de charge actuel de la batterie :</value>
@@ -187,20 +187,20 @@
     <value>Arrêter l'appareil</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Dispositif d'hibernation</value>
+    <value>Mettre l'appareil en veille prolongée</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Mettre l'appareil en mode économie d'énergie</value>
+    <value>Mettre l'appareil en veille</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Il est possible que l'appareil soit encore en charge ou que l'état de la batterie n'ait pas pu être déterminé.
-Le processus de décharge contrôlée de la batterie est néanmoins effectué normalement ci-dessous.</value>
+    <value>L'appareil est peut-être encore en charge ou l'état de la batterie n'a pas pu être déterminé.
+La décharge contrôlée de la batterie se poursuivra normalement.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Information</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Empêcher la mise en veille indésirable du système:</value>
+    <value>Empêcher la mise en veille automatique :</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Ne rien faire</value>

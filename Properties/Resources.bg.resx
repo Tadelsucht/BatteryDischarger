@@ -104,7 +104,7 @@
     <value>Не е открита батерия.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Стартиране на контролирано разтоварване</value>
+    <value>Стартиране на контролирано разреждане</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Целеви заряд на батерията (в проценти):</value>
@@ -113,7 +113,7 @@
     <value>Състоянието на батерията не може да бъде определено.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Спиране на контролираното изхвърляне</value>
+    <value>Спиране на контролирано разреждане</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
     <value>Ускоряване на разреждането на батерията:</value>
@@ -122,7 +122,7 @@
     <value>Грешка</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Не е намерен използваем WorkingDirectoryPath.</value>
+    <value>Не е намерена подходяща работна папка.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Език:</value>
@@ -134,13 +134,13 @@
     <value>Операционната система не се поддържа.</value>
   </data>
   <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve">
-    <value>Структурата на посочения лицензен код не е правилна.</value>
+    <value>Форматът на посочения лицензионен код е неправилен.</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
     <value>Лицензионният код не е валиден.</value>
   </data>
   <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve">
-    <value>Програмата може да се използва само след въвеждане на валиден лицензен код.</value>
+    <value>Програмата може да се използва само след въвеждане на валиден лицензионен код.</value>
   </data>
   <data name="CheckCorrect" xml:space="preserve">
     <value>✔</value>
@@ -149,28 +149,28 @@
     <value>❌</value>
   </data>
   <data name="LicenseCodeColon" xml:space="preserve">
-    <value>Код на лиценза:</value>
+    <value>Лицензионен код:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Проверка на</value>
+    <value>Проверка</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Брой минути до достигане на избраното ниво на батерията:</value>
+    <value>Оставащи минути до избраното ниво на заряд:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Действие при достигане на избраното ниво на батерията:</value>
+    <value>Действие при избраното ниво на заряд:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Текущ заряд на батерията в проценти:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Изключване на машината</value>
+    <value>Изключване на устройството</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Устройство за хибернация</value>
+    <value>Хибернация на устройството</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Настройка на устройството в режим на пестене на енергия</value>
+    <value>Приспиване на устройството</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Възможно е устройството все още да се зарежда или състоянието на батерията да не може да бъде определено.
@@ -180,9 +180,9 @@
     <value>Информация</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Предотвратяване на нежелана хибернация на системата:</value>
+    <value>Предотвратяване на автоматично заспиване:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
-    <value>Не прави нищо</value>
+    <value>Без действие</value>
   </data>
 </root>

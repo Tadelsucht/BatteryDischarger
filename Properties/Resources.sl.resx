@@ -98,31 +98,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>Odkrita je bila več kot ena baterija, ki je program ne podpira.</value>
+    <value>Zaznana je bila več kot ena baterija. Program ne podpira več baterij.</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
     <value>Baterija ni bila odkrita.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Začetek nadzorovanega praznjenja</value>
+    <value>Začni nadzorovano praznjenje</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Ciljno napolnjenost baterije (v odstotkih):</value>
+    <value>Ciljna napolnjenost baterije (v odstotkih):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Stanja baterije ni bilo mogoče določiti.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Zaustavitev nadzorovanega praznjenja</value>
+    <value>Ustavi nadzorovano praznjenje</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Pospešite praznjenje baterije:</value>
+    <value>Pospeši praznjenje baterije:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Napaka</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Ni našel uporabne poti WorkingDirectoryPath.</value>
+    <value>Uporabne delovne mape ni bilo mogoče najti.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Jezik:</value>
@@ -149,38 +149,38 @@
     <value>❌</value>
   </data>
   <data name="LicenseCodeColon" xml:space="preserve">
-    <value>Koda licence:</value>
+    <value>Licenčna koda:</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Preveri</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Število minut, dokler ni dosežena izbrana raven napolnjenosti baterije:</value>
+    <value>Čas do izbrane napolnjenosti baterije (v minutah):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Ukrepanje, ko je dosežena izbrana raven napolnjenosti baterije:</value>
+    <value>Dejanje ob izbrani napolnjenosti baterije:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Trenutna napolnjenost baterije v odstotkih:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Izklop naprave</value>
+    <value>Izklopi napravo</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Naprava za hibernacijo</value>
+    <value>Preklopi napravo v mirovanje</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Nastavitev naprave na način varčevanja z energijo</value>
+    <value>Preklopi napravo v stanje pripravljenosti</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Enota se morda še vedno polni ali pa stanja baterije ni bilo mogoče določiti.
-Nadzorovano praznjenje baterije kljub temu poteka normalno.</value>
+    <value>Naprava se morda še vedno polni ali pa stanja baterije ni bilo mogoče določiti.
+Nadzorovano praznjenje baterije bo kljub temu potekalo kot običajno.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informacije</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Preprečevanje neželene hibernacije sistema:</value>
+    <value>Prepreči samodejni prehod v pripravljenost:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Ne naredi nič</value>

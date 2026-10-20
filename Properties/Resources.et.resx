@@ -104,25 +104,25 @@
     <value>Ühtegi akut ei tuvastatud.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Kontrollitud tühjendamise käivitamine</value>
+    <value>Käivita kontrollitud tühjendamine</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Aku sihtlaadimine (protsentides):</value>
+    <value>Aku soovitud laetuse tase (protsentides):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Aku seisundit ei olnud võimalik kindlaks teha.</value>
+    <value>Aku olekut ei saanud kindlaks teha.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Kontrollitud tühjendamise peatamine</value>
+    <value>Peata kontrollitud tühjendamine</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Kiirendada aku tühjenemist:</value>
+    <value>Kiirenda aku tühjenemist:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Viga</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Ei leidnud kasutatavat WorkingDirectoryPathi.</value>
+    <value>Sobivat töökataloogi ei leitud.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Keel:</value>
@@ -152,35 +152,35 @@
     <value>Litsentsikood:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Kontrollida</value>
+    <value>Kontrolli</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Minutite arv, kuni valitud akutase on saavutatud:</value>
+    <value>Valitud laetuse tasemeni jäänud aeg (minutites):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Tegevus, kui valitud aku tase on saavutatud:</value>
+    <value>Tegevus valitud laetuse taseme saavutamisel:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>Aku praegune laadimine protsentides:</value>
+    <value>Aku praegune laetuse tase protsentides:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Lülita masin välja</value>
+    <value>Lülita seade välja</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Seadme puhkeolekusse lülitamine</value>
+    <value>Vii seade talveunerežiimi</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Seadme seadistamine energiasäästurežiimi</value>
+    <value>Vii seade unerežiimi</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Seade võib olla veel laadimises või aku olekut ei ole võimalik kindlaks teha.
-Kontrollitud aku tühjendusprotsess toimub siiski normaalselt.</value>
+    <value>Seade võib endiselt laadida või aku olekut ei saanud kindlaks teha.
+Aku kontrollitud tühjendamine jätkub sellest hoolimata tavapäraselt.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Teave</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Vältida süsteemi soovimatut talveolekut:</value>
+    <value>Väldi süsteemi automaatset unerežiimi:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Ära tee midagi</value>

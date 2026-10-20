@@ -8,8 +8,8 @@
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve"><value>Tindakan saat tingkat daya baterai yang dipilih tercapai:</value></data>
   <data name="CheckCorrect" xml:space="preserve"><value>✔</value></data>
   <data name="CheckIncorrect" xml:space="preserve"><value>❌</value></data>
-  <data name="CurrentBatteryChargeInPercent" xml:space="preserve"><value>Pengisian baterai saat ini dalam persen:</value></data>
-  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve"><value>WorkingDirectoryPath yang dapat digunakan tidak ditemukan.</value></data>
+  <data name="CurrentBatteryChargeInPercent" xml:space="preserve"><value>Tingkat daya baterai saat ini (dalam persen):</value></data>
+  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve"><value>Direktori kerja yang dapat digunakan tidak ditemukan.</value></data>
   <data name="DoNothing" xml:space="preserve"><value>Jangan lakukan apa pun</value></data>
   <data name="Error" xml:space="preserve"><value>Kesalahan</value></data>
   <data name="HibernateDevice" xml:space="preserve"><value>Hibernasikan perangkat</value></data>
@@ -17,11 +17,11 @@
   <data name="LanguageColon" xml:space="preserve"><value>Bahasa:</value></data>
   <data name="LegalNotice" xml:space="preserve"><value>Pemberitahuan hukum</value></data>
   <data name="LicenseCodeColon" xml:space="preserve"><value>Kode lisensi:</value></data>
-  <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve"><value>Lebih dari satu baterai terdeteksi, yang tidak didukung oleh program.</value></data>
+  <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve"><value>Lebih dari satu baterai terdeteksi. Program tidak mendukung penggunaan beberapa baterai.</value></data>
   <data name="NoBatteryWasDetected" xml:space="preserve"><value>Tidak ada baterai yang terdeteksi.</value></data>
-  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve"><value>Jumlah menit hingga tingkat baterai yang dipilih tercapai:</value></data>
-  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve"><value>Cegah mode tidur sistem yang tidak diinginkan:</value></data>
-  <data name="SetDeviceToPowerSavingMode" xml:space="preserve"><value>Atur perangkat ke mode hemat daya</value></data>
+  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve"><value>Sisa waktu hingga tingkat daya baterai yang dipilih tercapai (menit):</value></data>
+  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve"><value>Cegah sistem masuk mode tidur secara otomatis:</value></data>
+  <data name="SetDeviceToPowerSavingMode" xml:space="preserve"><value>Alihkan perangkat ke mode tidur</value></data>
   <data name="ShutDownDevice" xml:space="preserve"><value>Matikan perangkat</value></data>
   <data name="StartControlledDischarge" xml:space="preserve"><value>Mulai pengosongan terkontrol</value></data>
   <data name="StopControlledDischarge" xml:space="preserve"><value>Hentikan pengosongan terkontrol</value></data>

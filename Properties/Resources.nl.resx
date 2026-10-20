@@ -107,34 +107,34 @@
     <value>Start gecontroleerde ontlading</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Doellading van de batterij (in procenten):</value>
+    <value>Gewenste batterijlading (in procenten):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>De batterijstatus kon niet worden vastgesteld.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Stop gecontroleerde afvoer</value>
+    <value>Stop gecontroleerde ontlading</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Versnellen de ontlading van de batterij:</value>
+    <value>Batterij sneller ontladen:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Fout</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Geen bruikbaar WerkDirectoryPad gevonden.</value>
+    <value>Er is geen bruikbare werkmap gevonden.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Taal:</value>
   </data>
   <data name="LegalNotice" xml:space="preserve">
-    <value>Wettelijke kennisgeving</value>
+    <value>Juridische informatie</value>
   </data>
   <data name="TheOperatingSystemIsNotSupported" xml:space="preserve">
     <value>Het besturingssysteem wordt niet ondersteund.</value>
   </data>
   <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve">
-    <value>Structuur van de opgegeven licentiecode is niet correct.</value>
+    <value>De opgegeven licentiecode heeft een onjuiste indeling.</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
     <value>De licentiecode is ongeldig.</value>
@@ -149,10 +149,10 @@
     <value>❌</value>
   </data>
   <data name="LicenseCodeColon" xml:space="preserve">
-    <value>Licentie code:</value>
+    <value>Licentiecode:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Verifieer</value>
+    <value>Controleren</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
     <value>Aantal minuten tot het geselecteerde batterijniveau is bereikt:</value>
@@ -164,23 +164,23 @@
     <value>Huidige batterijlading in procenten:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Sluit de machine af</value>
+    <value>Apparaat afsluiten</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Slaapstand apparaat</value>
+    <value>Apparaat in de sluimerstand zetten</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Apparaat in energiebesparende modus zetten</value>
+    <value>Apparaat in de slaapstand zetten</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Het toestel is misschien nog aan het opladen of de batterijstatus kon niet worden vastgesteld.
-Het gecontroleerde ontladingsproces van de batterij wordt niettemin normaal uitgevoerd.</value>
+    <value>Het apparaat wordt mogelijk nog opgeladen of de batterijstatus kon niet worden vastgesteld.
+De gecontroleerde ontlading van de batterij gaat desondanks gewoon door.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informatie</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Voorkom ongewenste winterslaap van het systeem:</value>
+    <value>Automatische slaapstand voorkomen:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Niets doen</value>

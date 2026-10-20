@@ -104,10 +104,10 @@
     <value>Nu a fost detectată nicio baterie.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Începeți descărcarea controlată</value>
+    <value>Porniți descărcarea controlată</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Sarcina țintă a bateriei (în procente):</value>
+    <value>Nivelul de încărcare dorit (în procente):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Starea bateriei nu a putut fi determinată.</value>
@@ -116,13 +116,13 @@
     <value>Opriți descărcarea controlată</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Accelerează descărcarea bateriei:</value>
+    <value>Accelerați descărcarea bateriei:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Eroare</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Nu s-a găsit un WorkingDirectoryPath utilizabil.</value>
+    <value>Nu s-a găsit un director de lucru utilizabil.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Limba:</value>
@@ -152,37 +152,37 @@
     <value>Codul de licență:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Verifică</value>
+    <value>Verificați</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Numărul de minute până când se atinge nivelul selectat al bateriei:</value>
+    <value>Minute rămase până la nivelul de încărcare selectat:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Acțiune atunci când este atins nivelul selectat al bateriei:</value>
+    <value>Acțiune la atingerea nivelului de încărcare selectat:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>Încărcarea curentă a bateriei în procente:</value>
+    <value>Nivelul actual de încărcare a bateriei în procente:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Opriți mașina</value>
+    <value>Închideți dispozitivul</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Dispozitiv de hibernare</value>
+    <value>Treceți dispozitivul în hibernare</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Setați dispozitivul în modul de economisire a energiei</value>
+    <value>Treceți dispozitivul în repaus</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Este posibil ca unitatea să fie încă în curs de încărcare sau nu s-a putut determina starea bateriei.
-Procesul de descărcare controlată a bateriei se desfășoară totuși în mod normal.</value>
+    <value>Este posibil ca dispozitivul să se încarce în continuare sau starea bateriei nu a putut fi determinată.
+Descărcarea controlată a bateriei va continua totuși în mod normal.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informații</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Împiedicați hibernarea nedorită a sistemului:</value>
+    <value>Împiedicați trecerea automată în repaus:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
-    <value>Nu face nimic</value>
+    <value>Nicio acțiune</value>
   </data>
 </root>

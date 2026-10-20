@@ -104,7 +104,7 @@
     <value>Akkua ei havaittu.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Aloita valvottu purkaus</value>
+    <value>Aloita hallittu purkaminen</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Akun tavoitevaraus (prosentteina):</value>
@@ -113,16 +113,16 @@
     <value>Akun tilaa ei voitu määrittää.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Pysäytä valvottu vastuuvapauden myöntäminen</value>
+    <value>Lopeta hallittu purkaminen</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Nopeuttaa akun purkautumista:</value>
+    <value>Nopeuta akun purkautumista:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Virhe</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Ei löytynyt käyttökelpoista WorkingDirectoryPathia.</value>
+    <value>Käyttökelpoista työhakemistoa ei löytynyt.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Kieli:</value>
@@ -155,32 +155,32 @@
     <value>Tarkista</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Minuuttien määrä, kunnes valittu akun varaustaso on saavutettu:</value>
+    <value>Aikaa valitun varaustason saavuttamiseen (minuuttia):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Toiminta, kun valittu akun varaustaso on saavutettu:</value>
+    <value>Toiminto valitun varaustason saavuttamisen jälkeen:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Akun nykyinen varaus prosentteina:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Sammuta kone</value>
+    <value>Sammuta laite</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Laite lepotilaan</value>
+    <value>Siirrä laite horrostilaan</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Laitteen asettaminen virransäästötilaan</value>
+    <value>Siirrä laite lepotilaan</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Laite saattaa olla vielä latautumassa tai akun tilaa ei ole voitu määrittää.
-Ohjattu akun purkausprosessi suoritetaan kuitenkin normaalisti.</value>
+    <value>Laite saattaa edelleen latautua, tai akun tilaa ei voitu määrittää.
+Akun hallittu purkaminen jatkuu silti normaalisti.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Tiedot</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Estää järjestelmän ei-toivotun horrostilan:</value>
+    <value>Estä automaattinen lepotila:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Älä tee mitään</value>

@@ -113,7 +113,7 @@
     <value>Akumulatora stāvokli nav iespējams noteikt.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Pārtraukt kontrolētu izkraušanu</value>
+    <value>Pārtraukt kontrolētu izlādi</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
     <value>Paātrināt akumulatora izlādi:</value>
@@ -122,7 +122,7 @@
     <value>Kļūda</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Netika atrasts izmantojams WorkingDirectoryPath.</value>
+    <value>Netika atrasta izmantojama darba mape.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Valoda:</value>
@@ -152,13 +152,13 @@
     <value>Licences kods:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Pārbaudiet</value>
+    <value>Pārbaudīt</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
     <value>Minūšu skaits līdz izvēlētā akumulatora uzlādes līmeņa sasniegšanai:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Rīcība, kad ir sasniegts izvēlētais akumulatora uzlādes līmenis:</value>
+    <value>Darbība, sasniedzot izvēlēto akumulatora uzlādes līmeni:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Pašreizējais akumulatora uzlādes līmenis procentos:</value>
@@ -170,17 +170,17 @@
     <value>Hibernēt ierīci</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Iestatiet ierīcē enerģijas taupīšanas režīmu</value>
+    <value>Pārslēgt ierīci miega režīmā</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Iespējams, ka ierīce joprojām tiek uzlādēta vai akumulatora stāvokli nav iespējams noteikt.
-Kontrolētais akumulatora izlādes process tomēr tiek veikts normāli.</value>
+    <value>Iespējams, ierīce joprojām tiek uzlādēta vai neizdevās noteikt akumulatora stāvokli.
+Kontrolētā akumulatora izlāde tomēr turpināsies kā parasti.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informācija</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Novērst nevēlamu sistēmas hibernēšanu:</value>
+    <value>Novērst automātisku pāreju miega režīmā:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Nedarīt neko</value>

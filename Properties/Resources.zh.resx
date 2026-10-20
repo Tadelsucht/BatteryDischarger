@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>检测到一个以上的电池，这不被程序所支持。</value>
+    <value>检测到多个电池，本程序不支持多个电池。</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
     <value>没有检测到电池。</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>开始控制放电</value>
+    <value>开始受控放电</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>目标电池电量（百分比）。</value>
+    <value>目标电量（百分比）：</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>无法确定电池状态。</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>停止控制性排放</value>
+    <value>停止受控放电</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>加速电池放电。</value>
+    <value>加快电池放电：</value>
   </data>
   <data name="Error" xml:space="preserve">
-    <value>误差</value>
+    <value>错误</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
     <value>没有找到可用的工作目录路径。</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
-    <value>语言。</value>
+    <value>语言：</value>
   </data>
   <data name="LegalNotice" xml:space="preserve">
-    <value>法律通知</value>
+    <value>法律声明</value>
   </data>
   <data name="TheOperatingSystemIsNotSupported" xml:space="preserve">
-    <value>该操作系统不被支持。</value>
+    <value>不支持此操作系统。</value>
   </data>
   <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve">
-    <value>指定的许可证代码的结构不正确。</value>
+    <value>指定的许可证代码格式不正确。</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
-    <value>许可证代码是无效的。</value>
+    <value>许可证代码无效。</value>
   </data>
   <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve">
-    <value>只有在输入了有效的许可证代码后，才能使用该程序。</value>
+    <value>必须输入有效的许可证代码后才能使用本程序。</value>
   </data>
   <data name="CheckCorrect" xml:space="preserve">
     <value>✔</value>
@@ -169,38 +169,38 @@
     <value>❌</value>
   </data>
   <data name="LicenseCodeColon" xml:space="preserve">
-    <value>许可证代码。</value>
+    <value>许可证代码：</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>核实</value>
+    <value>验证</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>达到选定的电池水平之前的分钟数。</value>
+    <value>达到所选电量的剩余时间（分钟）：</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>当达到选定的电池水平时采取行动。</value>
+    <value>达到所选电量时的操作：</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>当前的电池电量，以百分比表示。</value>
+    <value>当前电量（百分比）：</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>关闭机器</value>
+    <value>关闭设备</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>休眠设备</value>
+    <value>使设备进入休眠状态</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>将设备设置为省电模式</value>
+    <value>使设备进入睡眠状态</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>设备可能仍在充电或无法确定电池状态。
-不过，受控的电池放电过程还是正常进行的。</value>
+    <value>设备可能仍在充电，或无法确定电池状态。
+受控放电仍将照常进行。</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>信息</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>防止不必要的系统休眠:</value>
+    <value>防止系统自动睡眠：</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>不执行任何操作</value>

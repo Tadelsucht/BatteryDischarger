@@ -104,25 +104,25 @@
     <value>Der blev ikke fundet noget batteri.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Start kontrolleret udledning</value>
+    <value>Start kontrolleret afladning</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Mål for batteriets opladning (i procent):</value>
+    <value>Ønsket batteriniveau (i procent):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Batteriets status kunne ikke bestemmes.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Stop kontrolleret udledning</value>
+    <value>Stop kontrolleret afladning</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Fremskynde afladning af batteriet:</value>
+    <value>Fremskynd afladning af batteriet:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Fejl</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Der blev ikke fundet en brugbar WorkingDirectoryPath.</value>
+    <value>Der blev ikke fundet en brugbar arbejdsmappe.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Sprog:</value>
@@ -152,35 +152,35 @@
     <value>Licenskode:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Bekræft</value>
+    <value>Kontrollér</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Antal minutter, indtil det valgte batteriniveau er nået:</value>
+    <value>Minutter til det valgte batteriniveau nås:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
     <value>Handling, når det valgte batteriniveau er nået:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>Aktuel batteriopladning i procent:</value>
+    <value>Aktuelt batteriniveau i procent:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Luk maskinen ned</value>
+    <value>Luk enheden ned</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Enhed i dvale</value>
+    <value>Sæt enheden i dvale</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Indstil enheden til strømbesparende tilstand</value>
+    <value>Sæt enheden i slumretilstand</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Enheden er muligvis stadig ved at oplade, eller batteristatusen kunne ikke bestemmes.
-Den kontrollerede batteriudladningsproces udføres dog normalt.</value>
+    <value>Enheden oplader muligvis stadig, eller batteriets status kunne ikke bestemmes.
+Den kontrollerede afladning af batteriet fortsætter alligevel som normalt.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Oplysninger</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Forebyg uønsket dvale af systemet:</value>
+    <value>Forhindr automatisk slumretilstand:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Gør ingenting</value>

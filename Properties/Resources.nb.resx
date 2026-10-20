@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Fremskynde batteriutladning:</value>
+    <value>Fremskynd batteriutladning:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
     <value>Handling når det valgte batterinivået er nådd:</value>
@@ -130,16 +130,16 @@
     <value>❌</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>Nåværende batterilading i prosent:</value>
+    <value>Nåværende batterinivå i prosent:</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Ingen brukbar WorkingDirectoryPath ble funnet.</value>
+    <value>Ingen brukbar arbeidsmappe ble funnet.</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Feil</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Sette maskinen i dvale</value>
+    <value>Sett enheten i dvalemodus</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informasjon</value>
@@ -163,32 +163,32 @@
     <value>Antall minutter til det valgte batterinivået er nådd:</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Forhindre uønsket dvalemodus for systemet:</value>
+    <value>Forhindre automatisk hvilemodus:</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Sette maskinen i strømsparingsmodus</value>
+    <value>Sett enheten i hvilemodus</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Slå av maskinen</value>
+    <value>Slå av enheten</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Start kontrollert utslipp</value>
+    <value>Start kontrollert utladning</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Stopp kontrollert utslipp</value>
+    <value>Stopp kontrollert utladning</value>
   </data>
   <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve">
     <value>Strukturen til den angitte lisenskoden er ikke korrekt.</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Mål for batterilading (i prosent):</value>
+    <value>Ønsket batterinivå (i prosent):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Batteristatusen kunne ikke fastslås.</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Det kan hende at enheten fortsatt lades, eller at batteristatusen ikke kunne fastslås.
-Den kontrollerte batteriladingsprosessen utføres likevel som normalt.</value>
+Den kontrollerte utladningen av batteriet fortsetter likevel som normalt.</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
     <value>Lisenskoden er ugyldig.</value>
@@ -200,7 +200,7 @@ Den kontrollerte batteriladingsprosessen utføres likevel som normalt.</value>
     <value>Programmet kan bare brukes etter at en gyldig lisenskode er lagt inn.</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Sjekk</value>
+    <value>Kontroller</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Ikke gjør noe</value>

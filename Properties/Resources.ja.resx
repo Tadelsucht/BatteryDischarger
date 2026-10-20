@@ -98,49 +98,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>プログラムでサポートされていない複数の電池が検出されました。</value>
+    <value>複数のバッテリーが検出されました。このプログラムは複数のバッテリーに対応していません。</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
-    <value>電池が検出されませんでした。</value>
+    <value>バッテリーが検出されませんでした。</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>制御放電の開始</value>
+    <value>制御放電を開始</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>目標バッテリー充電量（単位：％）。</value>
+    <value>目標バッテリー残量（％）：</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>電池の状態を判断することができませんでした。</value>
+    <value>バッテリーの状態を確認できませんでした。</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>制御された放電を停止する</value>
+    <value>制御放電を停止</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>バッテリーの放電を促進させる。</value>
+    <value>バッテリーの放電を加速：</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>エラー</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>使用可能なWorkingDirectoryPathが見つかりませんでした。</value>
+    <value>使用可能な作業フォルダーが見つかりませんでした。</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
-    <value>言語</value>
+    <value>言語：</value>
   </data>
   <data name="LegalNotice" xml:space="preserve">
     <value>法律上の注意事項</value>
   </data>
   <data name="TheOperatingSystemIsNotSupported" xml:space="preserve">
-    <value>オペレーティングシステムはサポートされていません。</value>
+    <value>このオペレーティングシステムには対応していません。</value>
   </data>
   <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve">
-    <value>指定されたライセンスコードの構造が正しくありません。</value>
+    <value>指定されたライセンスコードの形式が正しくありません。</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
     <value>ライセンスコードが有効ではありません。</value>
   </data>
   <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve">
-    <value>プログラムは、有効なライセンスコードが入力された後にのみ使用することができます。</value>
+    <value>プログラムを使用するには、有効なライセンスコードを入力する必要があります。</value>
   </data>
   <data name="CheckCorrect" xml:space="preserve">
     <value>✔</value>
@@ -149,38 +149,38 @@
     <value>❌</value>
   </data>
   <data name="LicenseCodeColon" xml:space="preserve">
-    <value>ライセンスコードです。</value>
+    <value>ライセンスコード：</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>ベリファイ</value>
+    <value>確認</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>選択した電池残量に到達するまでの分数。</value>
+    <value>選択したバッテリー残量までの残り時間（分）：</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>選択した電池残量に達したときの動作。</value>
+    <value>選択したバッテリー残量に達したときの動作：</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>現在のバッテリー充電量（％）。</value>
+    <value>現在のバッテリー残量（％）：</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>マシンをシャットダウンする</value>
+    <value>デバイスをシャットダウン</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>ハイバネートデバイス</value>
+    <value>デバイスを休止状態にする</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>デバイスをパワーセービングモードに設定する</value>
+    <value>デバイスをスリープ状態にする</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>本体がまだ充電中であるか、電池の状態を判断できなかった可能性があります。
-それにもかかわらず、制御された電池の放電プロセスは正常に実行されます。</value>
+    <value>デバイスがまだ充電中か、バッテリーの状態を確認できなかった可能性があります。
+制御放電はそのまま通常どおり続行されます。</value>
   </data>
   <data name="Information" xml:space="preserve">
-    <value>インフォメーション</value>
+    <value>情報</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>システムの不要なハイバネーションの防止:</value>
+    <value>自動スリープを防止：</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>何もしない</value>

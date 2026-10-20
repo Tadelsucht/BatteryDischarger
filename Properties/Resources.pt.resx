@@ -98,16 +98,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>Foi detectada mais de uma bateria, que não é suportada pelo programa.</value>
+    <value>Foi detetada mais de uma bateria. O programa não suporta várias baterias.</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
-    <value>Não foi detectada nenhuma bateria.</value>
+    <value>Não foi detetada nenhuma bateria.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
     <value>Iniciar descarga controlada</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Carga da bateria alvo (em percentagem):</value>
+    <value>Nível de carga pretendido (em percentagem):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>O estado da bateria não pôde ser determinado.</value>
@@ -122,10 +122,10 @@
     <value>Erro</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Não encontrei um WorkingDirectoryPath utilizável.</value>
+    <value>Não foi encontrada uma pasta de trabalho utilizável.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
-    <value>Linguagem:</value>
+    <value>Idioma:</value>
   </data>
   <data name="LegalNotice" xml:space="preserve">
     <value>Aviso legal</value>
@@ -134,10 +134,10 @@
     <value>O sistema operativo não é suportado.</value>
   </data>
   <data name="StructureOfTheSpecifiedLicenseCodeIsNotCorrect" xml:space="preserve">
-    <value>A estrutura do código de licença especificado não é correcta.</value>
+    <value>O formato do código de licença indicado está incorreto.</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
-    <value>O código da licença não é válido.</value>
+    <value>O código de licença não é válido.</value>
   </data>
   <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve">
     <value>O programa só pode ser utilizado depois de ter sido introduzido um código de licença válido.</value>
@@ -152,35 +152,35 @@
     <value>Código de licença:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Verifiquem</value>
+    <value>Verificar</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Número de minutos até o nível da bateria seleccionada ser atingido:</value>
+    <value>Minutos restantes até ao nível de carga selecionado:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Acção quando o nível da bateria seleccionada é atingido:</value>
+    <value>Ação ao atingir o nível de carga selecionado:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
-    <value>Carga actual da bateria em percentagem:</value>
+    <value>Carga atual da bateria em percentagem:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Desligar a máquina</value>
+    <value>Desligar o dispositivo</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Dispositivo de hibernação</value>
+    <value>Hibernar o dispositivo</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Configurar dispositivo para modo de poupança de energia</value>
+    <value>Suspender o dispositivo</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>A unidade pode ainda estar a carregar ou o estado da bateria não pôde ser determinado.
-O processo de descarga controlada da bateria é, no entanto, levado a cabo normalmente.</value>
+    <value>O dispositivo pode ainda estar a carregar ou não foi possível determinar o estado da bateria.
+A descarga controlada da bateria continuará normalmente.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informação</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Prevenir a hibernação indesejada do sistema:</value>
+    <value>Impedir a suspensão automática do sistema:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Não fazer nada</value>

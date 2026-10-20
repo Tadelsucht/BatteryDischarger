@@ -124,7 +124,7 @@
     <value>No se ha detectado ninguna batería.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Inicio de la descarga controlada</value>
+    <value>Iniciar la descarga controlada</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Carga objetivo de la batería (en porcentaje):</value>
@@ -142,10 +142,10 @@
     <value>Error</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>No se ha encontrado una WorkingDirectoryPath utilizable.</value>
+    <value>No se ha encontrado un directorio de trabajo utilizable.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
-    <value>El idioma:</value>
+    <value>Idioma:</value>
   </data>
   <data name="LegalNotice" xml:space="preserve">
     <value>Aviso legal</value>
@@ -175,32 +175,32 @@
     <value>Verificar</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Número de minutos hasta que se alcance el nivel de batería seleccionado:</value>
+    <value>Minutos restantes hasta el nivel de batería seleccionado:</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Acción cuando se alcanza el nivel de batería seleccionado:</value>
+    <value>Acción al alcanzar el nivel de batería seleccionado:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Carga actual de la batería en porcentaje:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Apagar la máquina</value>
+    <value>Apagar el dispositivo</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Dispositivo de hibernación</value>
+    <value>Hibernar el dispositivo</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Poner el dispositivo en modo de ahorro de energía</value>
+    <value>Suspender el dispositivo</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Es posible que la unidad aún se esté cargando o que no se pueda determinar el estado de la batería.
-No obstante, el proceso de descarga controlada de la batería se lleva a cabo con normalidad.</value>
+    <value>Es posible que el dispositivo aún se esté cargando o que no se haya podido determinar el estado de la batería.
+La descarga controlada de la batería continuará con normalidad.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Información</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Evitar la hibernación no deseada del sistema:</value>
+    <value>Evitar la suspensión automática del sistema:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>No hacer nada</value>

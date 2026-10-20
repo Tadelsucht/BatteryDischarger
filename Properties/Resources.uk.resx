@@ -5,11 +5,11 @@
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <data name="AccelerateBatteryDischarge" xml:space="preserve"><value>Прискорити розряджання акумулятора:</value></data>
-  <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve"><value>Дія після досягнення вибраного рівня заряду акумулятора:</value></data>
+  <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve"><value>Дія за вибраного рівня заряду:</value></data>
   <data name="CheckCorrect" xml:space="preserve"><value>✔</value></data>
   <data name="CheckIncorrect" xml:space="preserve"><value>❌</value></data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve"><value>Поточний заряд акумулятора у відсотках:</value></data>
-  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve"><value>Не знайдено придатний шлях WorkingDirectoryPath.</value></data>
+  <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve"><value>Не вдалося знайти придатну робочу теку.</value></data>
   <data name="DoNothing" xml:space="preserve"><value>Нічого не робити</value></data>
   <data name="Error" xml:space="preserve"><value>Помилка</value></data>
   <data name="HibernateDevice" xml:space="preserve"><value>Перевести пристрій у режим гібернації</value></data>
@@ -19,9 +19,9 @@
   <data name="LicenseCodeColon" xml:space="preserve"><value>Ліцензійний код:</value></data>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve"><value>Виявлено кілька акумуляторів, що не підтримується програмою.</value></data>
   <data name="NoBatteryWasDetected" xml:space="preserve"><value>Акумулятор не виявлено.</value></data>
-  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve"><value>Кількість хвилин до досягнення вибраного рівня акумулятора:</value></data>
-  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve"><value>Не допускати небажаного переходу системи в режим сну:</value></data>
-  <data name="SetDeviceToPowerSavingMode" xml:space="preserve"><value>Перевести пристрій у режим енергозбереження</value></data>
+  <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve"><value>Час до вибраного рівня заряду (у хвилинах):</value></data>
+  <data name="PreventUnwantedSystemSleepMode" xml:space="preserve"><value>Запобігати автоматичному переходу в режим сну:</value></data>
+  <data name="SetDeviceToPowerSavingMode" xml:space="preserve"><value>Перевести пристрій у режим сну</value></data>
   <data name="ShutDownDevice" xml:space="preserve"><value>Вимкнути пристрій</value></data>
   <data name="StartControlledDischarge" xml:space="preserve"><value>Почати контрольоване розряджання</value></data>
   <data name="StopControlledDischarge" xml:space="preserve"><value>Зупинити контрольоване розряджання</value></data>

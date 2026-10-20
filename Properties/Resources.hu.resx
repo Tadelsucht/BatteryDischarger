@@ -98,31 +98,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MoreThanOneBatteryWasDetectedWhichIsNotSupportedByTheProgram" xml:space="preserve">
-    <value>Egynél több akkumulátort észleltek, amit a program nem támogat.</value>
+    <value>A program egynél több akkumulátort észlelt, amit nem támogat.</value>
   </data>
   <data name="NoBatteryWasDetected" xml:space="preserve">
-    <value>Nem észleltek akkumulátort.</value>
+    <value>Nem található akkumulátor.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
     <value>Vezérelt kisütés indítása</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
-    <value>Az akkumulátor céltöltése (százalékban):</value>
+    <value>Az akkumulátor kívánt töltöttsége (százalékban):</value>
   </data>
   <data name="TheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
     <value>Az akkumulátor állapotát nem lehetett meghatározni.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Ellenőrzött ürítés leállítása</value>
+    <value>Vezérelt kisütés leállítása</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Gyorsítsa fel az akkumulátor lemerülését:</value>
+    <value>Az akkumulátor kisütésének gyorsítása:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Hiba</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Nem talált használható WorkingDirectoryPath.</value>
+    <value>Nem található használható munkakönyvtár.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Nyelv:</value>
@@ -149,40 +149,40 @@
     <value>❌</value>
   </data>
   <data name="LicenseCodeColon" xml:space="preserve">
-    <value>Licenc kód:</value>
+    <value>Licenckód:</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Ellenőrizze a  címet.</value>
+    <value>Ellenőrzés</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>A kiválasztott akkumulátorszint eléréséig eltelt percek száma:</value>
+    <value>A kiválasztott töltöttségi szintig hátralévő idő (perc):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Művelet a kiválasztott akkumulátorszint elérésekor:</value>
+    <value>Művelet a kiválasztott töltöttségi szint elérésekor:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Az akkumulátor jelenlegi töltöttsége százalékban:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Állítsa le a gépet</value>
+    <value>Az eszköz leállítása</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Hibernált eszköz</value>
+    <value>Az eszköz hibernálása</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>A készülék energiatakarékos üzemmódba állítása</value>
+    <value>Az eszköz alvó állapotba helyezése</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Lehet, hogy a készülék még mindig töltődik, vagy az akkumulátor állapotát nem lehetett meghatározni.
-Az akkumulátor szabályozott kisütési folyamata ennek ellenére normálisan zajlik.</value>
+    <value>Lehet, hogy az eszköz még töltődik, vagy az akkumulátor állapota nem állapítható meg.
+Az akkumulátor vezérelt kisütése ennek ellenére a szokásos módon folytatódik.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Információ</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>A rendszer nem kívánt hibernációjának megakadályozása:</value>
+    <value>Automatikus alvó állapot megakadályozása:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
-    <value>Ne tegyen semmit</value>
+    <value>Nincs művelet</value>
   </data>
 </root>

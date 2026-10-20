@@ -104,7 +104,7 @@
     <value>Nie wykryto akumulatora.</value>
   </data>
   <data name="StartControlledDischarge" xml:space="preserve">
-    <value>Rozpoczęcie kontrolowanego rozładunku</value>
+    <value>Rozpocznij kontrolowane rozładowanie</value>
   </data>
   <data name="TargetBatteryChargeInPercent" xml:space="preserve">
     <value>Docelowy poziom naładowania akumulatora (w procentach):</value>
@@ -113,16 +113,16 @@
     <value>Nie można określić stanu akumulatora.</value>
   </data>
   <data name="StopControlledDischarge" xml:space="preserve">
-    <value>Zatrzymanie kontrolowanego wypływu</value>
+    <value>Zatrzymaj kontrolowane rozładowanie</value>
   </data>
   <data name="AccelerateBatteryDischarge" xml:space="preserve">
-    <value>Przyspieszenie rozładowania akumulatora:</value>
+    <value>Przyspiesz rozładowanie akumulatora:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Błąd</value>
   </data>
   <data name="DidNotFoundAUseableWorkingDirectoryPath" xml:space="preserve">
-    <value>Nie znaleziono użytecznej ścieżki WorkingDirectoryPath.</value>
+    <value>Nie znaleziono odpowiedniego katalogu roboczego.</value>
   </data>
   <data name="LanguageColon" xml:space="preserve">
     <value>Język:</value>
@@ -137,10 +137,10 @@
     <value>Struktura podanego kodu licencji jest nieprawidłowa.</value>
   </data>
   <data name="TheLicenseCodeIsNotValid" xml:space="preserve">
-    <value>Kod licencyjny jest nieważny.</value>
+    <value>Kod licencji jest nieprawidłowy.</value>
   </data>
   <data name="TheProgramCanBeUsedOnlyAfterAValidLicenseCodeHasBeenEntered" xml:space="preserve">
-    <value>Program może być używany tylko po wprowadzeniu ważnego kodu licencyjnego.</value>
+    <value>Z programu można korzystać dopiero po wprowadzeniu prawidłowego kodu licencji.</value>
   </data>
   <data name="CheckCorrect" xml:space="preserve">
     <value>✔</value>
@@ -155,32 +155,32 @@
     <value>Zweryfikuj</value>
   </data>
   <data name="NumberOfMinutesUntilTheSelectedBatteryLevelIsReached" xml:space="preserve">
-    <value>Liczba minut do osiągnięcia wybranego poziomu naładowania baterii:</value>
+    <value>Czas do wybranego poziomu naładowania akumulatora (w minutach):</value>
   </data>
   <data name="ActionAtTheSelectedBatteryChargeLevel" xml:space="preserve">
-    <value>Działanie po osiągnięciu wybranego poziomu naładowania baterii:</value>
+    <value>Działanie przy wybranym poziomie naładowania akumulatora:</value>
   </data>
   <data name="CurrentBatteryChargeInPercent" xml:space="preserve">
     <value>Bieżący poziom naładowania akumulatora w procentach:</value>
   </data>
   <data name="ShutDownDevice" xml:space="preserve">
-    <value>Wyłączyć urządzenie</value>
+    <value>Wyłącz urządzenie</value>
   </data>
   <data name="HibernateDevice" xml:space="preserve">
-    <value>Urządzenie hibernujące</value>
+    <value>Hibernuj urządzenie</value>
   </data>
   <data name="SetDeviceToPowerSavingMode" xml:space="preserve">
-    <value>Przełączanie urządzenia w tryb oszczędzania energii</value>
+    <value>Uśpij urządzenie</value>
   </data>
   <data name="TheDeviceMayStillBeChargingOrTheBatteryStatusCouldNotBeDetermined" xml:space="preserve">
-    <value>Urządzenie może nadal się ładować lub nie można określić stanu baterii.
-Proces kontrolowanego rozładowania akumulatora przebiega jednak normalnie.</value>
+    <value>Urządzenie może nadal się ładować lub nie można określić stanu akumulatora.
+Kontrolowane rozładowanie akumulatora będzie mimo to przebiegać normalnie.</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informacje</value>
   </data>
   <data name="PreventUnwantedSystemSleepMode" xml:space="preserve">
-    <value>Zapobieganie niepożądanej hibernacji systemu:</value>
+    <value>Zapobiegaj automatycznemu usypianiu systemu:</value>
   </data>
   <data name="DoNothing" xml:space="preserve">
     <value>Nic nie rób</value>
